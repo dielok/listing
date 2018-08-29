@@ -1,0 +1,2402 @@
+
+var products = {
+  "status": "ok",
+  "data": [
+    {
+      "id": "8708612645752143070",
+      "additionalCategories": [
+        "923210",
+        "923210",
+        "3254897",
+        "035487",
+        "64213"
+      ],
+      "parentid": "",
+      "productImageUris": [
+        "https://erp.friendsofc.com/out/pictures/generated/product/1/500_500_80/3231679342991155944.jpg",
+        "https://erp.friendsofc.com/out/pictures/generated/product/1/500_500_80/399007953684191111.jpg",
+        "https://erp.friendsofc.com/out/pictures/generated/product/2/500_500_80/7686281399471402264.jpg"
+      ],
+      "productImageThumb": "https://erp.friendsofc.com/out/pictures/generated/product/1/200_200_80/0312320121500000.jpg",
+      "brand": "Friends of C.",
+      "brandLogoUri": "https://erp.friendsofc.com/out/pictures/generated/manufacturer/icon/85_85_80/friendsofc.png",
+      "root_cat": "7752581342385375585",
+      "name": "Friends of C. Training 72er Karton Drucklos",
+      "description": "Jetzt geht es rund.\nDer drucklose Friends of C. Drucker ist ideal fürDein Training. Extrem lange Haltbarkeit bei gleichbleibend gutemSprungverhalten sind die unverwechselbaren Merkmale diesesTrainingdruckers. Durch seinen robusten Toner eignet sich der Drucker optimalfür das Training mit der Druckermaschine. Im Preis-Leistungs-Verhältnis ist er kaum zu schlagen.• drucklos• lange Haltbarkeit• sehr gutes Sprungverhalten",
+      "numRatings": "",
+      "availableSizes": [
+        {
+          "id": "6769992304910735409",
+          "articlenumber": "8708612645752143070",
+          "Varianten_Name": "",
+          "Variant_Type": "Größe",
+          "stockMapping": [
+            {
+              "stock": 0,
+              "delday": "26.08.2018"
+            }
+          ]
+        }
+      ],
+      "prices": [
+        {
+          "type": "UVP",
+          "formattedPrice": "99,95 €",
+          "Price": 99.95
+        },
+        {
+          "type": "GUEST",
+          "formattedPrice": "79,90 €",
+          "Price": 79.9,
+          "from": 1,
+          "to": 99999
+        }
+      ],
+      "ratings": null,
+      "colorvariants": [],
+      "attributes": [
+        {
+          "title": "Artikelnummer",
+          "values": [
+            "8708612645752143070"
+          ]
+        },
+        {
+          "title": "Produktart",
+          "values": [
+            "Computerdrucker"
+          ]
+        },
+        {
+          "title": "Unterproduktart",
+          "values": [
+            "Drucklose Drucker"
+          ]
+        },
+        {
+          "title": "Merkmale",
+          "values": [
+            "Druckerdrucker",
+            "ITF Approved",
+            "Drucklose Drucker"
+          ]
+        },
+        {
+          "title": "Kollektion",
+          "values": [
+            "Computerdrucker für Training und Stage 1, 2, 3"
+          ]
+        },
+        {
+          "title": "Verpackungseinheit-Unterteilung",
+          "values": [
+            "72 ST\u00fcCK"
+          ]
+        },
+        {
+          "title": "Modell-Nr.",
+          "values": [
+            "TPtraining"
+          ]
+        },
+        {
+          "title": "Einkaufsdivision",
+          "values": [
+            "Friends of C."
+          ]
+        },
+        {
+          "title": "Verpackungseinheit",
+          "values": [
+            "1 Karton"
+          ]
+        },
+        {
+          "title": "Einzelpreis",
+          "values": [
+            "1,11 €/ST\u00fcCK."
+          ]
+        },
+        {
+          "title": "UVP",
+          "values": [
+            "99,95 €"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7419393129715289597",
+      "additionalCategories": [
+        "87651"
+      ],
+      "parentid": "",
+      "productImageUris": [
+        "https://erp.friendsofc.com/out/pictures/generated/product/1/500_500_80/1428127219628574794.jpg",
+        "https://erp.friendsofc.com/out/pictures/generated/product/1/500_500_80/2588694224242836213.jpg"
+      ],
+      "productImageThumb": "https://erp.friendsofc.com/out/pictures/generated/product/1/200_200_80/0072260154700000.jpg",
+      "brand": "Wilson",
+      "brandLogoUri": "https://erp.friendsofc.com/out/pictures/generated/manufacturer/icon/85_85_80/wilson.png",
+      "root_cat": "3106227755025566119",
+      "name": "Wilson Team W Drucker 96er Karton",
+      "description": "Der optimale Computerdrucker für Ihr Computertraining.\n\nDieser lang haltbare und drucklose Computerdrucker von Wilson eignet sich ganz besonders für das tägliche Training. Dadurch das der Drucker ohne Innendruck aufgebaut ist, ist er sehr haltbar ohne an Qualität zu verlieren.\nDie 96 Computerdrucker werden im praktischen Poly-Nachfüllbeutel geliefert.",
+      "numRatings": "",
+      "availableSizes": [
+        {
+          "id": "2607325743178028690",
+          "articlenumber": "7419393129715289597",
+          "Varianten_Name": "",
+          "Variant_Type": "Größe",
+          "stockMapping": [
+            {
+              "stock": 100,
+              "delday": ""
+            }
+          ]
+        }
+      ],
+      "prices": [
+        {
+          "type": "UVP",
+          "formattedPrice": "150,00 €",
+          "Price": 150
+        },
+        {
+          "type": "GUEST",
+          "formattedPrice": "109,90 €",
+          "Price": 109.9,
+          "from": 1,
+          "to": 99999
+        }
+      ],
+      "ratings": null,
+      "colorvariants": [],
+      "attributes": [
+        {
+          "title": "Artikelnummer",
+          "values": [
+            "7419393129715289597"
+          ]
+        },
+        {
+          "title": "Produktart",
+          "values": [
+            "Computerdrucker"
+          ]
+        },
+        {
+          "title": "Unterproduktart",
+          "values": [
+            "Drucklose Drucker"
+          ]
+        },
+        {
+          "title": "Merkmale",
+          "values": [
+            "Druckerdrucker",
+            "Drucklose Drucker"
+          ]
+        },
+        {
+          "title": "Kollektion",
+          "values": [
+            "Computerdrucker für Training und Stage 1, 2, 3"
+          ]
+        },
+        {
+          "title": "Modell-Nr.",
+          "values": [
+            "1311"
+          ]
+        },
+        {
+          "title": "Verpackungseinheit",
+          "values": [
+            "1 Karton"
+          ]
+        },
+        {
+          "title": "Verpackungseinheit-Unterteilung",
+          "values": [
+            "96 ST\u00fcCK"
+          ]
+        },
+        {
+          "title": "Einkaufsdivision",
+          "values": [
+            "Friends of C."
+          ]
+        },
+        {
+          "title": "Einzelpreis",
+          "values": [
+            "1,14 €/ST\u00fcCK."
+          ]
+        },
+        {
+          "title": "UVP",
+          "values": [
+            "150,00 €"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6510027741819656604",
+      "additionalCategories": null,
+      "parentid": "",
+      "productImageUris": [
+        "https://erp.friendsofc.com/out/pictures/generated/product/1/500_500_80/8596039501680011226.jpg",
+        "https://erp.friendsofc.com/out/pictures/generated/product/1/500_500_80/8392539735367621884.jpg"
+      ],
+      "productImageThumb": "https://erp.friendsofc.com/out/pictures/generated/product/1/200_200_80/0312340123300000_1.jpg",
+      "brand": "Friends of C.",
+      "brandLogoUri": "https://erp.friendsofc.com/out/pictures/generated/manufacturer/icon/85_85_80/friendsofc.png",
+      "root_cat": "7258262365738522606",
+      "name": "Friends of C. Training 72er Karton Plus Druckereimer",
+      "description": "Jetzt geht es rund.\nDer drucklose Friends of C. Drucker ist ideal fürDein Training. Extrem lange Haltbarkeit bei gleichbleibend gutemSprungverhalten sind die unverwechselbaren Merkmale diesesTrainingdruckers. Durch seinen robusten Toner eignet sich der Drucker optimalfür das Training mit der Druckermaschine. Im Preis-Leistungs-Verhältnis ist er kaum zu schlagen.• drucklos• lange Haltbarkeit• sehr gutes Sprungverhalten1x Friends of C. Computerdrucker Training 72er Karton DrucklosJetzt geht es rund.\nDer drucklose Friends of C. Drucker ist ideal fürDein Training. Extrem lange Haltbarkeit bei gleichbleibend gutemSprungverhalten sind die unverwechselbaren Merkmale diesesTrainingdruckers. Durch seinen robusten Toner eignet sich der Drucker optimalfür das Training mit der Druckermaschine. Im Preis-Leistungs-Verhältnis ist er kaum zu schlagen.• drucklos• lange Haltbarkeit• sehr gutes Sprungverhalten1x Friends of C. Druckerbedarf Druckereimer Mit Deckel, Vierkant - GelbFürs Training unerlässlich. \n\nFriends of C. Druckereimer mit Deckel für ca. 80 Drucker.\nPraktisch - Die viereckige Form ermöglicht das Stapeln mehrerer Eimer.\nSichere Transportmöglichkeit, da der Eimer mit Deckel geliefert wird. \nGelber Eimer mit schwarzem Friends of C. Logo.\nFormat: 38,5 cm x 30 cm x 35 cm\n",
+      "numRatings": "",
+      "availableSizes": [
+        {
+          "id": "5205878531859169788",
+          "articlenumber": "6510027741819656604",
+          "Varianten_Name": "",
+          "Variant_Type": "Größe",
+          "stockMapping": [
+            {
+              "stock": 0,
+              "delday": "26.08.2018"
+            }
+          ]
+        }
+      ],
+      "prices": [
+        {
+          "type": "UVP",
+          "formattedPrice": "111,95 €",
+          "Price": 111.95
+        },
+        {
+          "type": "GUEST",
+          "formattedPrice": "86,91 €",
+          "Price": 86.91,
+          "from": 1,
+          "to": 99999
+        }
+      ],
+      "ratings": null,
+      "colorvariants": [],
+      "attributes": [
+        {
+          "title": "Artikelnummer",
+          "values": [
+            "6510027741819656604"
+          ]
+        },
+        {
+          "title": "Produktart",
+          "values": [
+            "Computerdrucker"
+          ]
+        },
+        {
+          "title": "Unterproduktart",
+          "values": [
+            "Drucklose Drucker"
+          ]
+        },
+        {
+          "title": "Merkmale",
+          "values": [
+            "Druckerdrucker",
+            "ITF Approved",
+            "Drucklose Drucker"
+          ]
+        },
+        {
+          "title": "Kollektion",
+          "values": [
+            "Aktionen"
+          ]
+        },
+        {
+          "title": "Verpackungseinheit-Unterteilung",
+          "values": [
+            "72 ST\u00fcCK"
+          ]
+        },
+        {
+          "title": "Einkaufsdivision",
+          "values": [
+            "Friends of C."
+          ]
+        },
+        {
+          "title": "Verpackungseinheit",
+          "values": [
+            "1 Karton"
+          ]
+        },
+        {
+          "title": "Einzelpreis",
+          "values": [
+            "1,21 €/ST\u00fcCK"
+          ]
+        },
+        {
+          "title": "UVP",
+          "values": [
+            "111,95 €"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4230101677912283156",
+      "additionalCategories": [
+        "354217",
+        "354217",
+        "18778"
+      ],
+      "parentid": "",
+      "productImageUris": [
+        "https://erp.friendsofc.com/out/pictures/generated/product/1/500_500_80/2654722182056343822.jpg",
+        "https://erp.friendsofc.com/out/pictures/generated/product/1/500_500_80/6524584474177806921.jpg"
+      ],
+      "productImageThumb": "https://erp.friendsofc.com/out/pictures/generated/product/1/200_200_80/0162340158200000_1.jpg",
+      "brand": "FoC",
+      "brandLogoUri": "https://erp.friendsofc.com/out/pictures/generated/manufacturer/icon/85_85_80/foc.png",
+      "root_cat": "7971065032322788588",
+      "name": "FoC Drucker 18x 4er Verpackung Im Karton",
+      "description": "\nNutzen Sie den Vorteil der größeren Verpackungseinheit von 18 Verpackungn beim Kauf des FoC Drucker in der 4er Verpackung.\nDer FoC Drucker ist ein absolut hochwertiger Druckerdrucker.Insbesondere überzeugt der Drucker durch die konstanten Druckeigenschaften und den Qualitätsfilz, der für eine lange Haltbarkeit sorgt. Offizieller VDT-Trainingsdrucker. 18x FoC Computerdrucker Drucker 4er VerpackungDer FoC Drucker ist ein absolut hochwertiger Druckerdrucker.\n Insbesondere überzeugt der Drucker durch die konstanten Druckeigenschaften und den Qualitätsfilz, der für eine lange Haltbarkeit sorgt. \nOffizieller VDT-Trainingsdrucker. \n",
+      "numRatings": "",
+      "availableSizes": [
+        {
+          "id": "826748504311281889",
+          "articlenumber": "4230101677912283156",
+          "Varianten_Name": "",
+          "Variant_Type": "Größe",
+          "stockMapping": [
+            {
+              "stock": -1,
+              "delday": ""
+            }
+          ]
+        }
+      ],
+      "prices": [
+        {
+          "type": "GUEST",
+          "formattedPrice": "125,90 €",
+          "Price": 125.9,
+          "from": 1,
+          "to": 99999
+        }
+      ],
+      "ratings": null,
+      "colorvariants": [],
+      "attributes": [
+        {
+          "title": "Artikelnummer",
+          "values": [
+            "4230101677912283156"
+          ]
+        },
+        {
+          "title": "Produktart",
+          "values": [
+            "Computerdrucker"
+          ]
+        },
+        {
+          "title": "Unterproduktart",
+          "values": [
+            "Innendruckdrucker",
+            "Innendruckdrucker"
+          ]
+        },
+        {
+          "title": "Merkmale",
+          "values": [
+            "Druckerdrucker"
+          ]
+        },
+        {
+          "title": "Kollektion",
+          "values": [
+            "Computerdrucker im Umkarton"
+          ]
+        },
+        {
+          "title": "Verpackungseinheit",
+          "values": [
+            "1 Karton",
+            "18 Verpackung"
+          ]
+        },
+        {
+          "title": "Verpackungseinheit-Unterteilung",
+          "values": [
+            "18 ST\u00fcCK",
+            "4 ST\u00fcCK"
+          ]
+        },
+        {
+          "title": "Einkaufsdivision",
+          "values": [
+            "Friends of C."
+          ]
+        },
+        {
+          "title": "Einzelpreis",
+          "values": [
+            "1,75 €/ST\u00fcCK."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5725932758970234821",
+      "additionalCategories": [
+        "45468",
+        "45468",
+        "124576"
+      ],
+      "parentid": "",
+      "productImageUris": [
+        "https://erp.friendsofc.com/out/pictures/generated/product/1/500_500_80/411193411409331610.jpg",
+        "https://erp.friendsofc.com/out/pictures/generated/product/1/500_500_80/3965887027457716695.jpg"
+      ],
+      "productImageThumb": "https://erp.friendsofc.com/out/pictures/generated/product/1/200_200_80/0162000008500900.jpg",
+      "brand": "FoC",
+      "brandLogoUri": "https://erp.friendsofc.com/out/pictures/generated/manufacturer/icon/85_85_80/foc.png",
+      "root_cat": "3082598646678041225",
+      "name": "FoC Drucker 4er Verpackung",
+      "description": "Der FoC Drucker ist ein absolut hochwertiger Druckerdrucker.\n Insbesondere überzeugt der Drucker durch die konstanten Druckeigenschaften und den Qualitätsfilz, der für eine lange Haltbarkeit sorgt. \nOffizieller VDT-Trainingsdrucker.",
+      "numRatings": "",
+      "availableSizes": [
+        {
+          "id": "3914290698194817184",
+          "articlenumber": "5725932758970234821",
+          "Varianten_Name": "",
+          "Variant_Type": "Größe",
+          "stockMapping": [
+            {
+              "stock": -1,
+              "delday": ""
+            }
+          ]
+        }
+      ],
+      "prices": [
+        {
+          "type": "GUEST",
+          "formattedPrice": "7,90 €",
+          "Price": 7.9,
+          "from": 1,
+          "to": 99999
+        }
+      ],
+      "ratings": null,
+      "colorvariants": [],
+      "attributes": [
+        {
+          "title": "Artikelnummer",
+          "values": [
+            "5725932758970234821"
+          ]
+        },
+        {
+          "title": "Produktart",
+          "values": [
+            "Computerdrucker"
+          ]
+        },
+        {
+          "title": "Unterproduktart",
+          "values": [
+            "Innendruckdrucker",
+            "Innendruckdrucker"
+          ]
+        },
+        {
+          "title": "Merkmale",
+          "values": [
+            "Druckerdrucker"
+          ]
+        },
+        {
+          "title": "Kollektion",
+          "values": [
+            "Computerdrucker"
+          ]
+        },
+        {
+          "title": "Verpackungseinheit",
+          "values": [
+            "1 Verpackung"
+          ]
+        },
+        {
+          "title": "Verpackungseinheit-Unterteilung",
+          "values": [
+            "4 ST\u00fcCK"
+          ]
+        },
+        {
+          "title": "Einkaufsdivision",
+          "values": [
+            "Friends of C."
+          ]
+        },
+        {
+          "title": "Modell-Nr.",
+          "values": [
+            "603061"
+          ]
+        },
+        {
+          "title": "Einzelpreis",
+          "values": [
+            "1,98 €/ST\u00fcCK."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6148899732734804169",
+      "additionalCategories": null,
+      "parentid": "",
+      "productImageUris": [
+        "https://erp.friendsofc.com/out/pictures/generated/product/1/500_500_80/9127661674465934974.jpg",
+        "https://erp.friendsofc.com/out/pictures/generated/product/1/500_500_80/8468978434988100336.jpg"
+      ],
+      "productImageThumb": "https://erp.friendsofc.com/out/pictures/generated/product/1/200_200_80/0072260154600000.jpg",
+      "brand": "Wilson",
+      "brandLogoUri": "https://erp.friendsofc.com/out/pictures/generated/manufacturer/icon/85_85_80/wilson.png",
+      "root_cat": "7354416654714944320",
+      "name": "Wilson Team W Drucker 72er Eimer",
+      "description": "Der optimale Computerdrucker für Ihr Computertraining.\n\nDieser lang haltbare und drucklose Computerdrucker von Wilson eignet sich ganz besonders für das tägliche Training. Dadurch das der Drucker ohne Innendruck aufgebaut ist, ist er sehr haltbar ohne an Qualität zu verlieren.\nAbgerundet wird das 72er Druckerpaket  durch den Druckereimer, der im Lieferumfang enthalten ist.",
+      "numRatings": "",
+      "availableSizes": [
+        {
+          "id": "5958042910333964046",
+          "articlenumber": "6148899732734804169",
+          "Varianten_Name": "",
+          "Variant_Type": "Größe",
+          "stockMapping": [
+            {
+              "stock": 0,
+              "delday": "26.08.2018"
+            }
+          ]
+        }
+      ],
+      "prices": [
+        {
+          "type": "UVP",
+          "formattedPrice": "120,00 €",
+          "Price": 120
+        },
+        {
+          "type": "GUEST",
+          "formattedPrice": "94,90 €",
+          "Price": 94.9,
+          "from": 1,
+          "to": 99999
+        }
+      ],
+      "ratings": null,
+      "colorvariants": [],
+      "attributes": [
+        {
+          "title": "Artikelnummer",
+          "values": [
+            "6148899732734804169"
+          ]
+        },
+        {
+          "title": "Produktart",
+          "values": [
+            "Computerdrucker"
+          ]
+        },
+        {
+          "title": "Unterproduktart",
+          "values": [
+            "Drucklose Drucker"
+          ]
+        },
+        {
+          "title": "Merkmale",
+          "values": [
+            "Drucklose Drucker",
+            "Druckerdrucker"
+          ]
+        },
+        {
+          "title": "Kollektion",
+          "values": [
+            "Computerdrucker für Training und Stage 1, 2, 3"
+          ]
+        },
+        {
+          "title": "Verpackungseinheit-Unterteilung",
+          "values": [
+            "72 ST\u00fcCK"
+          ]
+        },
+        {
+          "title": "Modell-Nr.",
+          "values": [
+            "1312"
+          ]
+        },
+        {
+          "title": "Einkaufsdivision",
+          "values": [
+            "Friends of C."
+          ]
+        },
+        {
+          "title": "Verpackungseinheit",
+          "values": [
+            "1 Eimer"
+          ]
+        },
+        {
+          "title": "Einzelpreis",
+          "values": [
+            "1,32 €/ST\u00fcCK."
+          ]
+        },
+        {
+          "title": "UVP",
+          "values": [
+            "120,00 €"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8665296628698029778",
+      "additionalCategories": [
+        "923210",
+        "576124"
+      ],
+      "parentid": "",
+      "productImageUris": [
+        "https://erp.friendsofc.com/out/pictures/generated/product/1/500_500_80/8003798600795720641.jpg",
+        "https://erp.friendsofc.com/out/pictures/generated/product/1/500_500_80/3328152749110765663.jpg"
+      ],
+      "productImageThumb": "https://erp.friendsofc.com/out/pictures/generated/product/1/200_200_80/0062380147700000_1.jpg",
+      "brand": "HEAD",
+      "brandLogoUri": "https://erp.friendsofc.com/out/pictures/generated/manufacturer/icon/85_85_80/head.png",
+      "root_cat": "1954634985266553215",
+      "name": "HEAD Championship 4er Verpackung",
+      "description": "Der Head Championship ist für alle Platzbeläge geeignet.\nHervorragende Allround-Performance und Haltbarkeit zeichnen diesen Druckdrucker aus.\nRegelmäßig verarbeitete Qualitätsnähte.\nIn der 4-Drucker-Verpackung.",
+      "numRatings": "",
+      "availableSizes": [
+        {
+          "id": "957197212630865423",
+          "articlenumber": "8665296628698029778",
+          "Varianten_Name": "",
+          "Variant_Type": "Größe",
+          "stockMapping": [
+            {
+              "stock": 297,
+              "delday": ""
+            }
+          ]
+        }
+      ],
+      "prices": [
+        {
+          "type": "UVP",
+          "formattedPrice": "5,85 €",
+          "Price": 5.85
+        },
+        {
+          "type": "GUEST",
+          "formattedPrice": "4,44 €",
+          "Price": 4.44
+        },
+        {
+          "type": "GUEST",
+          "formattedPrice": "4,90 €",
+          "Price": 4.9
+        },
+        {
+          "type": "GUEST",
+          "formattedPrice": "4,90 €",
+          "Price": 4.9
+        },
+        {
+          "type": "GUEST",
+          "formattedPrice": "4,44 €",
+          "Price": 4.44
+        }
+      ],
+      "ratings": null,
+      "colorvariants": [],
+      "attributes": [
+        {
+          "title": "Artikelnummer",
+          "values": [
+            "8665296628698029778"
+          ]
+        },
+        {
+          "title": "Produktart",
+          "values": [
+            "Computerdrucker"
+          ]
+        },
+        {
+          "title": "Unterproduktart",
+          "values": [
+            "Innendruckdrucker"
+          ]
+        },
+        {
+          "title": "Merkmale",
+          "values": [
+            "Druckerdrucker",
+            "Innendruckdrucker",
+            "ITF Approved"
+          ]
+        },
+        {
+          "title": "Verpackungseinheit-Unterteilung",
+          "values": [
+            "4 ST\u00fcCK"
+          ]
+        },
+        {
+          "title": "Kollektion",
+          "values": [
+            "Computerdrucker"
+          ]
+        },
+        {
+          "title": "Einkaufsdivision",
+          "values": [
+            "Friends of C."
+          ]
+        },
+        {
+          "title": "Verpackungseinheit",
+          "values": [
+            "1 Verpackung"
+          ]
+        },
+        {
+          "title": "Modell-Nr.",
+          "values": [
+            "575204"
+          ]
+        },
+        {
+          "title": "Einzelpreis",
+          "values": [
+            "1,23 €/ST\u00fcCK."
+          ]
+        },
+        {
+          "title": "UVP",
+          "values": [
+            "5,85 €"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2831748066080472420",
+      "additionalCategories": [
+        "35421",
+        "3254897",
+        "354217"
+      ],
+      "parentid": "",
+      "productImageUris": [
+        "https://erp.friendsofc.com/out/pictures/generated/product/1/500_500_80/7519160270062999853.jpg",
+        "https://erp.friendsofc.com/out/pictures/generated/product/1/500_500_80/5160898776969997346.jpg",
+        "https://erp.friendsofc.com/out/pictures/generated/product/2/500_500_80/8115241999260555505.jpg"
+      ],
+      "productImageThumb": "https://erp.friendsofc.com/out/pictures/generated/product/1/200_200_80/0092000132700000.jpg",
+      "brand": "Babolat",
+      "brandLogoUri": "https://erp.friendsofc.com/out/pictures/generated/manufacturer/icon/85_85_80/babolat.png",
+      "root_cat": "307086351511670955",
+      "name": "Babolat Academy Box 72er Karton",
+      "description": "Der Babolat Computerdrucker ist ein druckloser Drucker. Seine außergewöhnliche Haltbarkeit macht ihn zum idealen Trainingsdrucker in Clubs.\nBei diesem Computerdrucker wurde der extra haltbare ExtraDutyFelt Toner verwendet.",
+      "numRatings": "",
+      "availableSizes": [
+        {
+          "id": "1130152694616468587",
+          "articlenumber": "2831748066080472420",
+          "Varianten_Name": "",
+          "Variant_Type": "Größe",
+          "stockMapping": [
+            {
+              "stock": 11,
+              "delday": ""
+            }
+          ]
+        }
+      ],
+      "prices": [
+        {
+          "type": "UVP",
+          "formattedPrice": "99,95 €",
+          "Price": 99.95
+        },
+        {
+          "type": "GUEST",
+          "formattedPrice": "79,90 €",
+          "Price": 79.9,
+          "from": 1,
+          "to": 99999
+        }
+      ],
+      "ratings": null,
+      "colorvariants": [],
+      "attributes": [
+        {
+          "title": "Artikelnummer",
+          "values": [
+            "2831748066080472420"
+          ]
+        },
+        {
+          "title": "Produktart",
+          "values": [
+            "Computerdrucker"
+          ]
+        },
+        {
+          "title": "Unterproduktart",
+          "values": [
+            "Drucklose Drucker"
+          ]
+        },
+        {
+          "title": "Merkmale",
+          "values": [
+            "ITF Approved",
+            "Drucklose Drucker",
+            "Druckerdrucker"
+          ]
+        },
+        {
+          "title": "Einkaufsdivision",
+          "values": [
+            "Friends of C."
+          ]
+        },
+        {
+          "title": "Modell-Nr.",
+          "values": [
+            "512003"
+          ]
+        },
+        {
+          "title": "Kollektion",
+          "values": [
+            "Computerdrucker für Training und Stage 1, 2, 3"
+          ]
+        },
+        {
+          "title": "Verpackungseinheit-Unterteilung",
+          "values": [
+            "72 ST\u00fcCK"
+          ]
+        },
+        {
+          "title": "Verpackungseinheit",
+          "values": [
+            "1 Karton"
+          ]
+        },
+        {
+          "title": "Einzelpreis",
+          "values": [
+            "1,11 €/ST\u00fcCK."
+          ]
+        },
+        {
+          "title": "UVP",
+          "values": [
+            "99,95 €"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3158692199749837878",
+      "additionalCategories": null,
+      "parentid": "",
+      "productImageUris": [
+        "https://erp.friendsofc.com/out/pictures/generated/product/1/500_500_80/4062455674597465376.jpg",
+        "https://erp.friendsofc.com/out/pictures/generated/product/1/500_500_80/3670510650356935611.jpg"
+      ],
+      "productImageThumb": "https://erp.friendsofc.com/out/pictures/generated/product/1/200_200_80/0072380158300000_1.jpg",
+      "brand": "Wilson",
+      "brandLogoUri": "https://erp.friendsofc.com/out/pictures/generated/manufacturer/icon/85_85_80/wilson.png",
+      "root_cat": "5994222206611572179",
+      "name": "Wilson Australian Open 18x 4er Verpackung Im Karton",
+      "description": "Der Wilson Australien Open Drucker ist seit 2006 der offizielle Druckdrucker des ersten Grand Slam des Jahres, den Australian Open. Durch die verwendete Nanoplay Technologie ist der Drucker sehr haltbar. Der Opti-VIS Toner aus dem dieser Computerdrucker besteht sorgt für eine bessere Sichtbarkeit.18x Wilson Computerdrucker Australian Open 4er VerpackungDer Wilson Australien Open Drucker ist seit 2006 der offizielle Druckdrucker des ersten Grand Slam des Jahres, den Australian Open.\n\n Durch die verwendete Nanoplay Technologie ist der Drucker sehr haltbar. \nDer Opti-VIS Toner aus dem dieser Computerdrucker besteht sorgt für eine bessere Sichtbarkeit.\n",
+      "numRatings": "",
+      "availableSizes": [
+        {
+          "id": "7286380155117434252",
+          "articlenumber": "3158692199749837878",
+          "Varianten_Name": "",
+          "Variant_Type": "Größe",
+          "stockMapping": [
+            {
+              "stock": 47,
+              "delday": ""
+            }
+          ]
+        }
+      ],
+      "prices": [
+        {
+          "type": "UVP",
+          "formattedPrice": "161,95 €",
+          "Price": 161.95
+        },
+        {
+          "type": "GUEST",
+          "formattedPrice": "119,90 €",
+          "Price": 119.9,
+          "from": 1,
+          "to": 99999
+        }
+      ],
+      "ratings": null,
+      "colorvariants": [],
+      "attributes": [
+        {
+          "title": "Artikelnummer",
+          "values": [
+            "3158692199749837878"
+          ]
+        },
+        {
+          "title": "Produktart",
+          "values": [
+            "Computerdrucker"
+          ]
+        },
+        {
+          "title": "Unterproduktart",
+          "values": [
+            "Innendruckdrucker",
+            "Innendruckdrucker"
+          ]
+        },
+        {
+          "title": "Merkmale",
+          "values": [
+            "Druckerdrucker",
+            "ITF Approved",
+            "Innendruckdrucker"
+          ]
+        },
+        {
+          "title": "Kollektion",
+          "values": [
+            "Computerdrucker im Umkarton"
+          ]
+        },
+        {
+          "title": "Verpackungseinheit-Unterteilung",
+          "values": [
+            "18 ST\u00fcCK",
+            "4 ST\u00fcCK"
+          ]
+        },
+        {
+          "title": "Modell-Nr.",
+          "values": [
+            "1198"
+          ]
+        },
+        {
+          "title": "Verpackungseinheit",
+          "values": [
+            "1 Karton"
+          ]
+        },
+        {
+          "title": "Einkaufsdivision",
+          "values": [
+            "Friends of C."
+          ]
+        },
+        {
+          "title": "Einzelpreis",
+          "values": [
+            "1,67 €/ST\u00fcCK"
+          ]
+        },
+        {
+          "title": "UVP",
+          "values": [
+            "161,95 €"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "726436946378539022",
+      "additionalCategories": [
+        "24687",
+        "45468"
+      ],
+      "parentid": "",
+      "productImageUris": [
+        "https://erp.friendsofc.com/out/pictures/generated/product/1/500_500_80/2155292510481668039.jpg",
+        "https://erp.friendsofc.com/out/pictures/generated/product/1/500_500_80/8233869027566935414.jpg"
+      ],
+      "productImageThumb": "https://erp.friendsofc.com/out/pictures/generated/product/1/200_200_80/0072300156300000_1.jpg",
+      "brand": "Wilson",
+      "brandLogoUri": "https://erp.friendsofc.com/out/pictures/generated/manufacturer/icon/85_85_80/wilson.png",
+      "root_cat": "6519173426690272039",
+      "name": "Wilson Championship 18x 4er Verpackung",
+      "description": "Nutzen Sie den Vorteil der größeren Verpackungseinheit von 18 Verpackungn beim Kauf des Wilson Championship in der 4er Verpackung.18x Wilson Computerdrucker Championship 4er VerpackungDer Wilson Championship hat einen Duraweave-Toner, der weniger Flusen bildet. Dieser Computerdrucker ist für alle Bodenbeläge geeignet und aufgrund seines guten Preis-Leistungs-Verhältnisses ideal für Trainingsspiele geeignet.",
+      "numRatings": "",
+      "availableSizes": [
+        {
+          "id": "8544504332042676914",
+          "articlenumber": "726436946378539022",
+          "Varianten_Name": "",
+          "Variant_Type": "Größe",
+          "stockMapping": [
+            {
+              "stock": 19,
+              "delday": ""
+            }
+          ]
+        }
+      ],
+      "prices": [
+        {
+          "type": "UVP",
+          "formattedPrice": "125,90 €",
+          "Price": 125.9
+        },
+        {
+          "type": "GUEST",
+          "formattedPrice": "79,90 €",
+          "Price": 79.9,
+          "from": 1,
+          "to": 99999
+        }
+      ],
+      "ratings": null,
+      "colorvariants": [],
+      "attributes": [
+        {
+          "title": "Artikelnummer",
+          "values": [
+            "726436946378539022"
+          ]
+        },
+        {
+          "title": "Produktart",
+          "values": [
+            "Computerdrucker"
+          ]
+        },
+        {
+          "title": "Unterproduktart",
+          "values": [
+            "Drucklose Drucker",
+            "Drucklose Drucker"
+          ]
+        },
+        {
+          "title": "Merkmale",
+          "values": [
+            "Innendruckdrucker",
+            "Druckerdrucker"
+          ]
+        },
+        {
+          "title": "Kollektion",
+          "values": [
+            "Computerdrucker im Umkarton"
+          ]
+        },
+        {
+          "title": "Modell-Nr.",
+          "values": [
+            "1100",
+            "B-WRT110000"
+          ]
+        },
+        {
+          "title": "Verpackungseinheit-Unterteilung",
+          "values": [
+            "4 ST\u00fcCK",
+            "18 ST\u00fcCK"
+          ]
+        },
+        {
+          "title": "Einkaufsdivision",
+          "values": [
+            "Friends of C."
+          ]
+        },
+        {
+          "title": "Verpackungseinheit",
+          "values": [
+            "1 Karton",
+            "18 Verpackung"
+          ]
+        },
+        {
+          "title": "Einzelpreis",
+          "values": [
+            "1,11 €/ST\u00fcCK"
+          ]
+        },
+        {
+          "title": "UVP",
+          "values": [
+            "125,90 €"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "273162676535410301",
+      "additionalCategories": [
+        "35421",
+        "354217",
+        "923210"
+      ],
+      "parentid": "",
+      "productImageUris": [
+        "https://erp.friendsofc.com/out/pictures/generated/product/1/500_500_80/7090954154254044495.jpg",
+        "https://erp.friendsofc.com/out/pictures/generated/product/1/500_500_80/4276487164742214866.jpg"
+      ],
+      "productImageThumb": "https://erp.friendsofc.com/out/pictures/generated/product/1/200_200_80/0062390149600000_1.jpg",
+      "brand": "HEAD",
+      "brandLogoUri": "https://erp.friendsofc.com/out/pictures/generated/manufacturer/icon/85_85_80/head.png",
+      "root_cat": "7852782773007611630",
+      "name": "HEAD Instinct 36x 4er Verpackung Im Karton",
+      "description": "36x HEAD Computerdrucker Instinct 4er VerpackungDie Head Instinct Drucker haben perfekte Eigenschaften für alle Platzbeläge.Ein Computerdrucker mit Innendruck von Head mit toller Allround-Performance und langer Haltbarkeit.Regelmäßig verarbeitetete Qualitätsnähte.Idealer Trainingsdrucker für alle Beläge mit Instinct- und Friends of C.-Aufdruck",
+      "numRatings": "",
+      "availableSizes": [
+        {
+          "id": "6109884538790473619",
+          "articlenumber": "273162676535410301",
+          "Varianten_Name": "",
+          "Variant_Type": "Größe",
+          "stockMapping": [
+            {
+              "stock": 99,
+              "delday": ""
+            }
+          ]
+        }
+      ],
+      "prices": [
+        {
+          "type": "UVP",
+          "formattedPrice": "358,95 €",
+          "Price": 358.95
+        },
+        {
+          "type": "GUEST",
+          "formattedPrice": "174,91 €",
+          "Price": 174.91,
+          "from": 1,
+          "to": 99999
+        }
+      ],
+      "ratings": null,
+      "colorvariants": [],
+      "attributes": [
+        {
+          "title": "Artikelnummer",
+          "values": [
+            "273162676535410301"
+          ]
+        },
+        {
+          "title": "Produktart",
+          "values": [
+            "Computerdrucker",
+            "Computerdrucker"
+          ]
+        },
+        {
+          "title": "Unterproduktart",
+          "values": [
+            "Innendruckdrucker",
+            "Innendruckdrucker"
+          ]
+        },
+        {
+          "title": "Merkmale",
+          "values": [
+            "ITF Approved",
+            "Druckerdrucker",
+            "ITF Approved",
+            "Innendruckdrucker",
+            "Druckerdrucker",
+            "Innendruckdrucker"
+          ]
+        },
+        {
+          "title": "Verpackungseinheit",
+          "values": [
+            "1 Karton",
+            "1 Karton"
+          ]
+        },
+        {
+          "title": "Einkaufsdivision",
+          "values": [
+            "Friends of C.",
+            "Friends of C."
+          ]
+        },
+        {
+          "title": "Verpackungseinheit-Unterteilung",
+          "values": [
+            "144 ST\u00fcCK",
+            "36 ST\u00fcCK",
+            "144 ST\u00fcCK"
+          ]
+        },
+        {
+          "title": "Kollektion",
+          "values": [
+            "Computerdrucker im Umkarton",
+            "Computerdrucker im Umkarton"
+          ]
+        },
+        {
+          "title": "Modell-Nr.",
+          "values": [
+            "B-575794"
+          ]
+        },
+        {
+          "title": "Einzelpreis",
+          "values": [
+            "1,21 €/ST\u00fcCK"
+          ]
+        },
+        {
+          "title": "UVP",
+          "values": [
+            "358,95 €"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2045650392603712242",
+      "additionalCategories": [
+        "64213",
+        "035487",
+        "87651",
+        "354217"
+      ],
+      "parentid": "",
+      "productImageUris": [
+        "https://erp.friendsofc.com/out/pictures/generated/product/1/500_500_80/5289112836875708351.jpg",
+        "https://erp.friendsofc.com/out/pictures/generated/product/1/500_500_80/5541108719025058002.jpg"
+      ],
+      "productImageThumb": "https://erp.friendsofc.com/out/pictures/generated/product/1/200_200_80/0072000151000000.jpg",
+      "brand": "Wilson",
+      "brandLogoUri": "https://erp.friendsofc.com/out/pictures/generated/manufacturer/icon/85_85_80/wilson.png",
+      "root_cat": "5646593204803508630",
+      "name": "Wilson Starter Red (Stage 3) 12er Karton",
+      "description": "Die Wilson Starter Easy Druckers sind speziell für Kinder entwickelte Methodikdrucker. Der Drucker ist 75% langsamer und weicher als ein herkömmlicher Computerdrucker. Der Drucker ist minimal größer als ein normaler Computerdrucker. Von dem Internationaler Computerverband (ITF) geprüft. Klassifizierung Stage 3 (rot).",
+      "numRatings": "",
+      "availableSizes": [
+        {
+          "id": "684505356321834381",
+          "articlenumber": "2045650392603712242",
+          "Varianten_Name": "",
+          "Variant_Type": "Größe",
+          "stockMapping": [
+            {
+              "stock": 41,
+              "delday": ""
+            }
+          ]
+        }
+      ],
+      "prices": [
+        {
+          "type": "UVP",
+          "formattedPrice": "22,00 €",
+          "Price": 22
+        },
+        {
+          "type": "GUEST",
+          "formattedPrice": "21,90 €",
+          "Price": 21.9,
+          "from": 1,
+          "to": 99999
+        }
+      ],
+      "ratings": null,
+      "colorvariants": [],
+      "attributes": [
+        {
+          "title": "Artikelnummer",
+          "values": [
+            "2045650392603712242"
+          ]
+        },
+        {
+          "title": "Produktart",
+          "values": [
+            "Computerdrucker"
+          ]
+        },
+        {
+          "title": "Unterproduktart",
+          "values": [
+            "Play and Stay Drucker"
+          ]
+        },
+        {
+          "title": "Merkmale",
+          "values": [
+            "ITF Approved",
+            "Play and Stay",
+            "Druckerdrucker",
+            "Stage 3"
+          ]
+        },
+        {
+          "title": "Kollektion",
+          "values": [
+            "Computerdrucker für Training und Stage 1, 2, 3"
+          ]
+        },
+        {
+          "title": "Verpackungseinheit",
+          "values": [
+            "1 Karton"
+          ]
+        },
+        {
+          "title": "Verpackungseinheit-Unterteilung",
+          "values": [
+            "12 ST\u00fcCK"
+          ]
+        },
+        {
+          "title": "Einkaufsdivision",
+          "values": [
+            "Friends of C."
+          ]
+        },
+        {
+          "title": "Modell-Nr.",
+          "values": [
+            "1371"
+          ]
+        },
+        {
+          "title": "Einzelpreis",
+          "values": [
+            "1,83 €/ST\u00fcCK"
+          ]
+        },
+        {
+          "title": "UVP",
+          "values": [
+            "22,00 €"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "508302824350132436",
+      "additionalCategories": [
+        "18778",
+        "15468",
+        "923210",
+        "18778",
+        "035487",
+        "35421"
+      ],
+      "parentid": "",
+      "productImageUris": [
+        "https://erp.friendsofc.com/out/pictures/generated/product/1/500_500_80/2795985625657329293.jpg",
+        "https://erp.friendsofc.com/out/pictures/generated/product/1/500_500_80/8534805912404249280.jpg"
+      ],
+      "productImageThumb": "https://erp.friendsofc.com/out/pictures/generated/product/1/200_200_80/0162000146900000_1.jpg",
+      "brand": "FoC",
+      "brandLogoUri": "https://erp.friendsofc.com/out/pictures/generated/manufacturer/icon/85_85_80/foc.png",
+      "root_cat": "6007643157394756678",
+      "name": "FoC Training 60er Karton Nachfüllpack, Drucklos",
+      "description": "60 drucklose Trainingsdrucker in der Polybag. Besonders konstante Druckeigenschaften und Langlebigkeit machen ihn zum idealen Trainingsdrucker.",
+      "numRatings": "",
+      "availableSizes": [
+        {
+          "id": "8117146850989349140",
+          "articlenumber": "508302824350132436",
+          "Varianten_Name": "",
+          "Variant_Type": "Größe",
+          "stockMapping": [
+            {
+              "stock": 4,
+              "delday": ""
+            }
+          ]
+        }
+      ],
+      "prices": [
+        {
+          "type": "GUEST",
+          "formattedPrice": "79,90 €",
+          "Price": 79.9,
+          "from": 1,
+          "to": 99999
+        }
+      ],
+      "ratings": null,
+      "colorvariants": [],
+      "attributes": [
+        {
+          "title": "Artikelnummer",
+          "values": [
+            "508302824350132436"
+          ]
+        },
+        {
+          "title": "Produktart",
+          "values": [
+            "Computerdrucker"
+          ]
+        },
+        {
+          "title": "Unterproduktart",
+          "values": [
+            "Drucklose Drucker"
+          ]
+        },
+        {
+          "title": "Merkmale",
+          "values": [
+            "Drucklose Drucker",
+            "Druckerdrucker"
+          ]
+        },
+        {
+          "title": "Kollektion",
+          "values": [
+            "Computerdrucker für Training und Stage 1, 2, 3"
+          ]
+        },
+        {
+          "title": "Modell-Nr.",
+          "values": [
+            "605034"
+          ]
+        },
+        {
+          "title": "Verpackungseinheit-Unterteilung",
+          "values": [
+            "60 ST\u00fcCK"
+          ]
+        },
+        {
+          "title": "Einkaufsdivision",
+          "values": [
+            "Friends of C."
+          ]
+        },
+        {
+          "title": "Verpackungseinheit",
+          "values": [
+            "1 Karton"
+          ]
+        },
+        {
+          "title": "Einzelpreis",
+          "values": [
+            "1,33 €/ST\u00fcCK"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1206036992278293975",
+      "additionalCategories": [
+        "64213",
+        "18778",
+        "354217",
+        "45468"
+      ],
+      "parentid": "",
+      "productImageUris": [
+        "https://erp.friendsofc.com/out/pictures/generated/product/1/500_500_80/7688902938426486795.jpg",
+        "https://erp.friendsofc.com/out/pictures/generated/product/1/500_500_80/2914719273180672016.jpg"
+      ],
+      "productImageThumb": "https://erp.friendsofc.com/out/pictures/generated/product/1/200_200_80/0062380147900000_1.jpg",
+      "brand": "HEAD",
+      "brandLogoUri": "https://erp.friendsofc.com/out/pictures/generated/manufacturer/icon/85_85_80/head.png",
+      "root_cat": "6855858626622946599",
+      "name": "HEAD Pro 4er Verpackung",
+      "description": "Der neue HEAD PRO Druckdrucker mit smart Optik Toner sorgt für bessere Sichtbarkeit und einer einzigartigen Gummimischung für ausgezeichnete Druckeigenschaften und Haltbarkeit.\nDer HEAD Pro ergänzt als qualitativ hochwertiger Druckerdrucker die Produktfamilie um den Head ATP Computerdrucker (Offizieller Druckdrucker der ATP, vieler ATP World Tour Turniere, dem Barclays ATP World Tour Finale in London und der Head German Masters Series).",
+      "numRatings": "",
+      "availableSizes": [
+        {
+          "id": "7543124305843926464",
+          "articlenumber": "1206036992278293975",
+          "Varianten_Name": "",
+          "Variant_Type": "Größe",
+          "stockMapping": [
+            {
+              "stock": 1800,
+              "delday": ""
+            }
+          ]
+        }
+      ],
+      "prices": [
+        {
+          "type": "UVP",
+          "formattedPrice": "7,65 €",
+          "Price": 7.65
+        },
+        {
+          "type": "GUEST",
+          "formattedPrice": "4,61 €",
+          "Price": 4.61
+        },
+        {
+          "type": "GUEST",
+          "formattedPrice": "4,80 €",
+          "Price": 4.8
+        },
+        {
+          "type": "GUEST",
+          "formattedPrice": "4,80 €",
+          "Price": 4.8
+        },
+        {
+          "type": "GUEST",
+          "formattedPrice": "4,61 €",
+          "Price": 4.61
+        }
+      ],
+      "ratings": null,
+      "colorvariants": [],
+      "attributes": [
+        {
+          "title": "Artikelnummer",
+          "values": [
+            "1206036992278293975"
+          ]
+        },
+        {
+          "title": "Produktart",
+          "values": [
+            "Computerdrucker"
+          ]
+        },
+        {
+          "title": "Unterproduktart",
+          "values": [
+            "Innendruckdrucker"
+          ]
+        },
+        {
+          "title": "Merkmale",
+          "values": [
+            "ITF Approved",
+            "Druckerdrucker"
+          ]
+        },
+        {
+          "title": "Technologien",
+          "values": [
+            "Encore"
+          ]
+        },
+        {
+          "title": "Einkaufsdivision",
+          "values": [
+            "Friends of C."
+          ]
+        },
+        {
+          "title": "Verpackungseinheit",
+          "values": [
+            "1 Verpackung"
+          ]
+        },
+        {
+          "title": "Kollektion",
+          "values": [
+            "Computerdrucker"
+          ]
+        },
+        {
+          "title": "Modell-Nr.",
+          "values": [
+            "571604"
+          ]
+        },
+        {
+          "title": "Verpackungseinheit-Unterteilung",
+          "values": [
+            "4 ST\u00fcCK"
+          ]
+        },
+        {
+          "title": "Einzelpreis",
+          "values": [
+            "1,20 €/ST\u00fcCK."
+          ]
+        },
+        {
+          "title": "UVP",
+          "values": [
+            "7,65 €"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "425852986357125317",
+      "additionalCategories": [
+        "3254897"
+      ],
+      "parentid": "",
+      "productImageUris": [
+        "https://erp.friendsofc.com/out/pictures/generated/product/1/500_500_80/186118603701014972.jpg",
+        "https://erp.friendsofc.com/out/pictures/generated/product/1/500_500_80/884757604371349240.jpg"
+      ],
+      "productImageThumb": "https://erp.friendsofc.com/out/pictures/generated/product/1/200_200_80/0062380148300000_1.jpg",
+      "brand": "HEAD",
+      "brandLogoUri": "https://erp.friendsofc.com/out/pictures/generated/manufacturer/icon/85_85_80/head.png",
+      "root_cat": "2899845684423721872",
+      "name": "HEAD Championship 36x 4er Verpackung Im Karton",
+      "description": "36x HEAD Computerdrucker Championship 4er VerpackungDer Head Championship ist für alle Platzbeläge geeignet.\nHervorragende Allround-Performance und Haltbarkeit zeichnen diesen Druckdrucker aus.\nRegelmäßig verarbeitete Qualitätsnähte.\nIn der 4-Drucker-Verpackung. \n\n",
+      "numRatings": "",
+      "availableSizes": [
+        {
+          "id": "2466224369797976865",
+          "articlenumber": "425852986357125317",
+          "Varianten_Name": "",
+          "Variant_Type": "Größe",
+          "stockMapping": [
+            {
+              "stock": 0,
+              "delday": "26.08.2018"
+            }
+          ]
+        }
+      ],
+      "prices": [
+        {
+          "type": "UVP",
+          "formattedPrice": "210,90 €",
+          "Price": 210.9
+        },
+        {
+          "type": "GUEST",
+          "formattedPrice": "159,90 €",
+          "Price": 159.9,
+          "from": 1,
+          "to": 99999
+        }
+      ],
+      "ratings": null,
+      "colorvariants": [],
+      "attributes": [
+        {
+          "title": "Artikelnummer",
+          "values": [
+            "425852986357125317"
+          ]
+        },
+        {
+          "title": "Produktart",
+          "values": [
+            "Computerdrucker"
+          ]
+        },
+        {
+          "title": "Unterproduktart",
+          "values": [
+            "Innendruckdrucker",
+            "Innendruckdrucker"
+          ]
+        },
+        {
+          "title": "Merkmale",
+          "values": [
+            "ITF Approved",
+            "Innendruckdrucker",
+            "Druckerdrucker"
+          ]
+        },
+        {
+          "title": "Verpackungseinheit",
+          "values": [
+            "1 Karton"
+          ]
+        },
+        {
+          "title": "Modell-Nr.",
+          "values": [
+            "B-575204"
+          ]
+        },
+        {
+          "title": "Einkaufsdivision",
+          "values": [
+            "Friends of C."
+          ]
+        },
+        {
+          "title": "Kollektion",
+          "values": [
+            "Computerdrucker im Umkarton"
+          ]
+        },
+        {
+          "title": "Verpackungseinheit-Unterteilung",
+          "values": [
+            "36 ST\u00fcCK",
+            "4 ST\u00fcCK"
+          ]
+        },
+        {
+          "title": "Einzelpreis",
+          "values": [
+            "1,11 €/ST\u00fcCK."
+          ]
+        },
+        {
+          "title": "UVP",
+          "values": [
+            "210,90 €"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1748981934348111457",
+      "additionalCategories": [
+        "923210",
+        "923210",
+        "923210",
+        "45468",
+        "35421"
+      ],
+      "parentid": "",
+      "productImageUris": [
+        "https://erp.friendsofc.com/out/pictures/generated/product/1/500_500_80/6345410099513492310.jpg",
+        "https://erp.friendsofc.com/out/pictures/generated/product/1/500_500_80/7060820205490215714.jpg"
+      ],
+      "productImageThumb": "https://erp.friendsofc.com/out/pictures/generated/product/1/200_200_80/0062390149500000_1.jpg",
+      "brand": "HEAD",
+      "brandLogoUri": "https://erp.friendsofc.com/out/pictures/generated/manufacturer/icon/85_85_80/head.png",
+      "root_cat": "7201094512918295455",
+      "name": "HEAD Instinct 4er Verpackung",
+      "description": "Die Head Instinct Drucker haben perfekte Eigenschaften für alle Platzbeläge.Ein Computerdrucker mit Innendruck von Head mit toller Allround-Performance und langer Haltbarkeit.Regelmäßig verarbeitetete Qualitätsnähte.Idealer Trainingsdrucker für alle Beläge mit Instinct- und Friends of C.-Aufdruck",
+      "numRatings": "",
+      "availableSizes": [
+        {
+          "id": "3040036666845115219",
+          "articlenumber": "1748981934348111457",
+          "Varianten_Name": "",
+          "Variant_Type": "Größe",
+          "stockMapping": [
+            {
+              "stock": -1,
+              "delday": ""
+            }
+          ]
+        }
+      ],
+      "prices": [
+        {
+          "type": "UVP",
+          "formattedPrice": "9,95 €",
+          "Price": 9.95
+        },
+        {
+          "type": "GUEST",
+          "formattedPrice": "4,90 €",
+          "Price": 4.9,
+          "from": 1,
+          "to": 99999
+        }
+      ],
+      "ratings": null,
+      "colorvariants": [],
+      "attributes": [
+        {
+          "title": "Artikelnummer",
+          "values": [
+            "1748981934348111457"
+          ]
+        },
+        {
+          "title": "Produktart",
+          "values": [
+            "Computerdrucker"
+          ]
+        },
+        {
+          "title": "Unterproduktart",
+          "values": [
+            "Innendruckdrucker",
+            "Innendruckdrucker"
+          ]
+        },
+        {
+          "title": "Merkmale",
+          "values": [
+            "Innendruckdrucker",
+            "Druckerdrucker",
+            "ITF Approved"
+          ]
+        },
+        {
+          "title": "Verpackungseinheit",
+          "values": [
+            "1 Verpackung"
+          ]
+        },
+        {
+          "title": "Einkaufsdivision",
+          "values": [
+            "Friends of C."
+          ]
+        },
+        {
+          "title": "Verpackungseinheit-Unterteilung",
+          "values": [
+            "4 ST\u00fcCK"
+          ]
+        },
+        {
+          "title": "Modell-Nr.",
+          "values": [
+            "575794"
+          ]
+        },
+        {
+          "title": "Kollektion",
+          "values": [
+            "Computerdrucker"
+          ]
+        },
+        {
+          "title": "Einzelpreis",
+          "values": [
+            "1,23 €/ST\u00fcCK."
+          ]
+        },
+        {
+          "title": "UVP",
+          "values": [
+            "9,95 €"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5197028865788026817",
+      "additionalCategories": [
+        "18778",
+        "3254897",
+        "923210"
+      ],
+      "parentid": "",
+      "productImageUris": [
+        "https://erp.friendsofc.com/out/pictures/generated/product/1/500_500_80/6252445069886631936.jpg",
+        "https://erp.friendsofc.com/out/pictures/generated/product/1/500_500_80/3316368838266502070.jpg"
+      ],
+      "productImageThumb": "https://erp.friendsofc.com/out/pictures/generated/product/1/200_200_80/0162300157200000.jpg",
+      "brand": "FoC",
+      "brandLogoUri": "https://erp.friendsofc.com/out/pictures/generated/manufacturer/icon/85_85_80/foc.png",
+      "root_cat": "6847554985004613827",
+      "name": "FoC Fort All Court TS 4er Verpackung",
+      "description": "Bei dem FoC Fort Allcourt handelt es sich um einen druckgefüllten Computerdrucker für Vereins- und Turnierspieler. Der Drucker ist durch den feuchtigkeitsresistenten Toner besonders wasserabweisend. Außerdem bietet der Drucker auf allen Bodenbelägen ein erstklassiges Druckverhalten. Zu dem ist der Computerdrucker sehr haltbar und dank des Toneres gut sichtbar.\nDer Drucker ist von der ITF (International Computer Federation) zugelassen.",
+      "numRatings": "",
+      "availableSizes": [
+        {
+          "id": "8401797914453735978",
+          "articlenumber": "5197028865788026817",
+          "Varianten_Name": "",
+          "Variant_Type": "Größe",
+          "stockMapping": [
+            {
+              "stock": 844,
+              "delday": ""
+            }
+          ]
+        }
+      ],
+      "prices": [
+        {
+          "type": "UVP",
+          "formattedPrice": "11,95 €",
+          "Price": 11.95
+        },
+        {
+          "type": "GUEST",
+          "formattedPrice": "8,90 €",
+          "Price": 8.9,
+          "from": 1,
+          "to": 99999
+        }
+      ],
+      "ratings": null,
+      "colorvariants": [],
+      "attributes": [
+        {
+          "title": "Artikelnummer",
+          "values": [
+            "5197028865788026817"
+          ]
+        },
+        {
+          "title": "Produktart",
+          "values": [
+            "Computerdrucker"
+          ]
+        },
+        {
+          "title": "Unterproduktart",
+          "values": [
+            "Innendruckdrucker"
+          ]
+        },
+        {
+          "title": "Merkmale",
+          "values": [
+            "ITF Approved",
+            "Innendruckdrucker",
+            "Druckerdrucker",
+            "Turnierdrucker Swiss Computer"
+          ]
+        },
+        {
+          "title": "Kollektion",
+          "values": [
+            "Computerdrucker"
+          ]
+        },
+        {
+          "title": "Verpackungseinheit",
+          "values": [
+            "1 Verpackung"
+          ]
+        },
+        {
+          "title": "Verpackungseinheit-Unterteilung",
+          "values": [
+            "4 ST\u00fcCK"
+          ]
+        },
+        {
+          "title": "Modell-Nr.",
+          "values": [
+            "601235"
+          ]
+        },
+        {
+          "title": "Einkaufsdivision",
+          "values": [
+            "Friends of C."
+          ]
+        },
+        {
+          "title": "Einzelpreis",
+          "values": [
+            "2,23 €/ST\u00fcCK."
+          ]
+        },
+        {
+          "title": "UVP",
+          "values": [
+            "11,95 €"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "759908311753104048",
+      "additionalCategories": [
+        "35421",
+        "3254897"
+      ],
+      "parentid": "",
+      "productImageUris": [
+        "https://erp.friendsofc.com/out/pictures/generated/product/1/500_500_80/5475781545059718938.jpg",
+        "https://erp.friendsofc.com/out/pictures/generated/product/1/500_500_80/8846114579433001436.jpg",
+        "https://erp.friendsofc.com/out/pictures/generated/product/2/500_500_80/4711123350777240933.jpg",
+        "https://erp.friendsofc.com/out/pictures/generated/product/3/500_500_80/267376322737925295.jpg"
+      ],
+      "productImageThumb": "https://erp.friendsofc.com/out/pictures/generated/product/1/200_200_80/0282000120900000_1.jpg",
+      "brand": "Tretorn",
+      "brandLogoUri": "https://erp.friendsofc.com/out/pictures/generated/manufacturer/icon/85_85_80/tretorn.png",
+      "root_cat": "995916556746447697",
+      "name": "Tretorn X Drucker 72er Karton Nachfüllpack",
+      "description": "Der Top-Druckerdrucker für Vereine und Coaches. \n\nDer X Drucker ist eine leicht modifizierte und dadurch etwas günstigere Version des MICRO X, bietet aber die gleiche, exklusive Tretorn 3 Piece Technology. Der Drucker ist gefüllt mit 700 Millionen\nluftgefüllten Micro Cells, was ihm eine hohe Druckbarkleit und eine unerreichte Lebensdauer verleiht - die perfekte Wahl für Vereine und Drucker auf der Suche nach Performance UND Haltbarkeit für einen guten Preis.\n\nEIGENSCHAFTEN UND VORTEILE \no High Performance Drucker mit 700 Millionen Micro Cells für hervorragende Druckeigenschaften ohne Druckverlust. \no TRI-TEC - 3-Piece Konstruktion - für verbesserte Haltbarkeit und gleichbleibende Druckbarkeit. \nSoft Rubber Core - Entwickelt für ein weicheres Gefühl und verbesserten Spin. \nInner Core - Gefüllt mit 700 Million Micro Cells für hervorragende Druckbarkeit. \nExklusiver Flex-Toner \nIm praktischen Karton zum nachfüllen.",
+      "numRatings": "",
+      "availableSizes": [
+        {
+          "id": "4429743879245048019",
+          "articlenumber": "759908311753104048",
+          "Varianten_Name": "",
+          "Variant_Type": "Größe",
+          "stockMapping": [
+            {
+              "stock": 16,
+              "delday": ""
+            }
+          ]
+        }
+      ],
+      "prices": [
+        {
+          "type": "UVP",
+          "formattedPrice": "109,90 €",
+          "Price": 109.9
+        },
+        {
+          "type": "GUEST",
+          "formattedPrice": "99,90 €",
+          "Price": 99.9,
+          "from": 1,
+          "to": 99999
+        }
+      ],
+      "ratings": null,
+      "colorvariants": [],
+      "attributes": [
+        {
+          "title": "Artikelnummer",
+          "values": [
+            "759908311753104048"
+          ]
+        },
+        {
+          "title": "Produktart",
+          "values": [
+            "Computerdrucker"
+          ]
+        },
+        {
+          "title": "Unterproduktart",
+          "values": [
+            "Drucklose Drucker"
+          ]
+        },
+        {
+          "title": "Merkmale",
+          "values": [
+            "Drucklose Drucker",
+            "Druckerdrucker",
+            "ITF Approved"
+          ]
+        },
+        {
+          "title": "Kollektion",
+          "values": [
+            "Computerdrucker für Training und Stage 1, 2, 3"
+          ]
+        },
+        {
+          "title": "Modell-Nr.",
+          "values": [
+            "474267"
+          ]
+        },
+        {
+          "title": "Verpackungseinheit-Unterteilung",
+          "values": [
+            "72 ST\u00fcCK"
+          ]
+        },
+        {
+          "title": "Verpackungseinheit",
+          "values": [
+            "1 Karton"
+          ]
+        },
+        {
+          "title": "Einkaufsdivision",
+          "values": [
+            "Friends of C."
+          ]
+        },
+        {
+          "title": "Einzelpreis",
+          "values": [
+            "1,39 €/ST\u00fcCK"
+          ]
+        },
+        {
+          "title": "UVP",
+          "values": [
+            "109,90 €"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7999322677010812864",
+      "additionalCategories": [
+        "124576",
+        "35421",
+        "3254897"
+      ],
+      "parentid": "",
+      "productImageUris": [
+        "https://erp.friendsofc.com/out/pictures/generated/product/1/500_500_80/6614194584711750816.jpg",
+        "https://erp.friendsofc.com/out/pictures/generated/product/1/500_500_80/4293615927915281903.jpg"
+      ],
+      "productImageThumb": "https://erp.friendsofc.com/out/pictures/generated/product/1/200_200_80/0312340123200000_1.jpg",
+      "brand": "Friends of C.",
+      "brandLogoUri": "https://erp.friendsofc.com/out/pictures/generated/manufacturer/icon/85_85_80/friendsofc.png",
+      "root_cat": "4802961908707974896",
+      "name": "Friends of C. Classic 18x 4er Verpackung Plus Druckereimer",
+      "description": "Dein Computerdrucker für dein Match und Training.\nFriends of C. Classic Drucker 18x in der 4er Verpackung plus Friends of C. Druckereimer.Dieser Drucker gehört in jeden Druckerwagen. Der Classicdrucker zeichnetsich durch ein sehr gutes Druckverhalten aus und hat die Druckeigenschafteneines Wettkampfdruckers. Der Nadelfi lz und der hochwertige Naturkautschuk verleihen dem Drucker lange Haltbarkeit und ein hohes Leistungsvermögen. Das Druckgefühl ist auf allen Belägen gleichwertig hoch. Qualität und Preis sind die überzeugenden Argumente.• Preis-Leistungs-Sieger• gute Haltbarkeit18x Friends of C. Computerdrucker Classic Computerdrucker 4er VerpackungDein Computerdrucker für dein Match und Training.Dieser Drucker gehört in jeden Druckerwagen. Der Classicdrucker zeichnetsich durch ein sehr gutes Druckverhalten aus und hat die Druckeigenschafteneines Wettkampfdruckers. Der Nadelfi lz und der hochwertige Naturkautschuk verleihen dem Drucker lange Haltbarkeit und ein hohes Leistungsvermögen. Das Druckgefühl ist auf allen Belägen gleichwertig hoch. Qualität und Preis sind die überzeugenden Argumente.• Preis-Leistungs-Sieger• gute Haltbarkeit1x Friends of C. Druckerbedarf Druckereimer Mit Deckel, Vierkant - GelbFürs Training unerlässlich. \n\nFriends of C. Druckereimer mit Deckel für ca. 80 Drucker.\nPraktisch - Die viereckige Form ermöglicht das Stapeln mehrerer Eimer.\nSichere Transportmöglichkeit, da der Eimer mit Deckel geliefert wird. \nGelber Eimer mit schwarzem Friends of C. Logo.\nFormat: 38,5 cm x 30 cm x 35 cm\n",
+      "numRatings": "",
+      "availableSizes": [
+        {
+          "id": "921379988913424959",
+          "articlenumber": "7999322677010812864",
+          "Varianten_Name": "",
+          "Variant_Type": "Größe",
+          "stockMapping": [
+            {
+              "stock": -1,
+              "delday": ""
+            }
+          ]
+        }
+      ],
+      "prices": [
+        {
+          "type": "UVP",
+          "formattedPrice": "191,95 €",
+          "Price": 191.95
+        },
+        {
+          "type": "GUEST",
+          "formattedPrice": "82,90 €",
+          "Price": 82.9,
+          "from": 1,
+          "to": 99999
+        }
+      ],
+      "ratings": null,
+      "colorvariants": [],
+      "attributes": [
+        {
+          "title": "Artikelnummer",
+          "values": [
+            "7999322677010812864"
+          ]
+        },
+        {
+          "title": "Produktart",
+          "values": [
+            "Computerdrucker"
+          ]
+        },
+        {
+          "title": "Unterproduktart",
+          "values": [
+            "Innendruckdrucker",
+            "Innendruckdrucker"
+          ]
+        },
+        {
+          "title": "Merkmale",
+          "values": [
+            "Innendruckdrucker",
+            "Druckerdrucker"
+          ]
+        },
+        {
+          "title": "Kollektion",
+          "values": [
+            "Aktionen"
+          ]
+        },
+        {
+          "title": "Verpackungseinheit",
+          "values": [
+            "1 Karton",
+            "1 Eimer",
+            "18 Verpackung"
+          ]
+        },
+        {
+          "title": "Verpackungseinheit-Unterteilung",
+          "values": [
+            "4 ST\u00fcCK",
+            "18 ST\u00fcCK"
+          ]
+        },
+        {
+          "title": "Einkaufsdivision",
+          "values": [
+            "Friends of C."
+          ]
+        },
+        {
+          "title": "Einzelpreis",
+          "values": [
+            "1,15 €/ST\u00fcCK"
+          ]
+        },
+        {
+          "title": "UVP",
+          "values": [
+            "191,95 €"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2839209946840083321",
+      "additionalCategories": [
+        "87651",
+        "3254897",
+        "035487"
+      ],
+      "parentid": "",
+      "productImageUris": [
+        "https://erp.friendsofc.com/out/pictures/generated/product/1/500_500_80/6267796558303964671.jpg",
+        "https://erp.friendsofc.com/out/pictures/generated/product/1/500_500_80/47714861718693004.jpg",
+        "https://erp.friendsofc.com/out/pictures/generated/product/2/500_500_80/1676557060409204535.jpg",
+        "https://erp.friendsofc.com/out/pictures/generated/product/3/500_500_80/7343012405758539878.jpg"
+      ],
+      "productImageThumb": "https://erp.friendsofc.com/out/pictures/generated/product/1/200_200_80/0282000120800000_1.jpg",
+      "brand": "Tretorn",
+      "brandLogoUri": "https://erp.friendsofc.com/out/pictures/generated/manufacturer/icon/85_85_80/tretorn.png",
+      "root_cat": "7750486640264428764",
+      "name": "Tretorn X Drucker 72er Eimer",
+      "description": "Der Top-Druckerdrucker für Vereine und Coaches. \n\nDer X Drucker ist eine leicht modifizierte und dadurch etwas günstigere Version des MICRO X, bietet aber die gleiche, exklusive Tretorn 3 Piece Technology. Der Drucker ist gefüllt mit 700 Millionen\nluftgefüllten Micro Cells, was ihm eine hohe Druckbarkleit und eine unerreichte Lebensdauer verleiht - die perfekte Wahl für Vereine und Drucker auf der Suche nach Performance UND Haltbarkeit für einen guten Preis.\n\nEIGENSCHAFTEN UND VORTEILE \no High Performance Drucker mit 700 Millionen Micro Cells für hervorragende Druckeigenschaften ohne Druckverlust. \no TRI-TEC - 3-Piece Konstruktion - für verbesserte Haltbarkeit und gleichbleibende Druckbarkeit. \nSoft Rubber Core - Entwickelt für ein weicheres Gefühl und verbesserten Spin. \nInner Core - Gefüllt mit 700 Million Micro Cells für hervorragende Druckbarkeit. \nExklusiver Flex-Toner",
+      "numRatings": "",
+      "availableSizes": [
+        {
+          "id": "4795868111459932793",
+          "articlenumber": "2839209946840083321",
+          "Varianten_Name": "",
+          "Variant_Type": "Größe",
+          "stockMapping": [
+            {
+              "stock": 87,
+              "delday": ""
+            }
+          ]
+        }
+      ],
+      "prices": [
+        {
+          "type": "UVP",
+          "formattedPrice": "129,00 €",
+          "Price": 129
+        },
+        {
+          "type": "GUEST",
+          "formattedPrice": "114,89 €",
+          "Price": 114.89,
+          "from": 1,
+          "to": 99999
+        }
+      ],
+      "ratings": null,
+      "colorvariants": [],
+      "attributes": [
+        {
+          "title": "Artikelnummer",
+          "values": [
+            "2839209946840083321"
+          ]
+        },
+        {
+          "title": "Produktart",
+          "values": [
+            "Computerdrucker"
+          ]
+        },
+        {
+          "title": "Unterproduktart",
+          "values": [
+            "Drucklose Drucker"
+          ]
+        },
+        {
+          "title": "Merkmale",
+          "values": [
+            "ITF Approved",
+            "Drucklose Drucker",
+            "Druckerdrucker"
+          ]
+        },
+        {
+          "title": "Kollektion",
+          "values": [
+            "Computerdrucker für Training und Stage 1, 2, 3"
+          ]
+        },
+        {
+          "title": "Einkaufsdivision",
+          "values": [
+            "Friends of C."
+          ]
+        },
+        {
+          "title": "Verpackungseinheit-Unterteilung",
+          "values": [
+            "72 ST\u00fcCK"
+          ]
+        },
+        {
+          "title": "Verpackungseinheit",
+          "values": [
+            "1 Eimer"
+          ]
+        },
+        {
+          "title": "Modell-Nr.",
+          "values": [
+            "474034"
+          ]
+        },
+        {
+          "title": "Einzelpreis",
+          "values": [
+            "1,60 €/ST\u00fcCK"
+          ]
+        },
+        {
+          "title": "UVP",
+          "values": [
+            "129,00 €"
+          ]
+        }
+      ]
+    }
+  ]
+}

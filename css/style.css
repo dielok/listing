@@ -2,25 +2,45 @@ body {
   display: flex; }
 
 .filters {
-  width: 320px;
+  display: none;
+  /* mobile first */
+  width: 284px;
+  padding: 0 10px;
   flex-basis: auto;
   flex-grow: 0;
   flex-shrink: 0;
   background: limegreen;
   height: 400px; }
 
+@media (min-width: 897px) {
+  .filters {
+    display: block; } }
 .listing {
+  position: relative;
   display: flex;
   flex-grow: 1;
   flex-direction: row;
   flex-wrap: wrap;
-  background: pink; }
+  margin-bottom: 120px; }
+.listing.testing .product {
+  visibility: hidden; }
+.listing.loading .flummy {
+  display: block; }
+.listing .flummy {
+  display: none;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  bottom: -80px;
+  left: calc(50% - 20px); }
+.listing h1 {
+  width: 100%;
+  margin-left: 10px; }
 .listing .product {
   position: relative;
-  width: 320px;
-  height: 320px;
-  background: red;
-  box-shadow: initial;
+  width: 260px;
+  height: 260px;
+  background: #fafafa;
   margin: 10px;
   transition: margin 0.1s, width 0.1s, height 0.1s, box-shadow 0.1s;
   transition-timing-function: ease-in-out;
@@ -28,26 +48,31 @@ body {
 .listing .product__content {
   position: relative;
   /* for creating an stacking context to influence the z-achsis  */
-  background: blue;
-  width: 320px;
-  height: 320px;
+  background: inherit;
+  width: 100%;
+  height: 100%;
   transition: margin 0.1s; }
 .listing .product__modal {
   position: absolute;
   width: 100%;
-  height: 100px;
-  background: yellow;
-  bottom: 0;
-  transition: box-shadow 0.1s, bottom 0.1s;
+  height: 100%;
+  background: #fafafa;
+  top: 0px;
+  left: 0px;
+  transition: box-shadow 0.1s, height 0.1s;
   transition-timing-function: ease-in-out; }
 .listing .product:hover {
   margin: 4px 5px 6px;
-  width: 330px;
-  height: 330px;
-  box-shadow: 0px 10px 17px -4px rgba(0, 0, 0, 0.25);
+  width: 270px;
+  height: 270px;
   z-index: 10; }
 .listing .product:hover .product__modal {
-  bottom: -100px;
+  height: calc(100% + 100px);
   box-shadow: 0px 10px 17px -4px rgba(0, 0, 0, 0.25); }
 .listing .product:hover .product__content {
-  margin: 5px; }
+  margin: 5px;
+  width: calc(100% - 10px);
+  height: calc(100% - 10px); }
+
+body.mobile .product {
+  flex: 1 1 auto; }
