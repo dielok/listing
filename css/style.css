@@ -1,6 +1,10 @@
 @font-face {
   font-family: Oxygen;
   src: url(../res/Oxygen-Regular.ttf); }
+@font-face {
+  font-family: Oxygen;
+  src: url(../res/Oxygen-Bold.ttf);
+  font-weight: bold; }
 body {
   display: flex;
   background: #fafafa;
@@ -97,7 +101,7 @@ body {
 .listing .product {
   position: relative;
   width: 260px;
-  height: 260px;
+  height: 360px;
   background: #fefefe;
   margin: 10px;
   transition: margin 0.1s, width 0.1s, height 0.1s, box-shadow 0.1s;
@@ -123,13 +127,25 @@ body {
   height: 100%;
   transition: margin 0.1s;
   border-radius: inherit; }
+.listing .product__image img {
+  width: 100%; }
+.listing .product__title {
+  text-align: center;
+  font-weight: bold; }
+.listing .product__footer {
+  display: flex;
+  justify-content: space-between; }
+.listing .product__footer .icon-* {
+  color: #00ffff; }
+.listing .product__description {
+  text-align: center; }
 .listing .product:hover {
   margin: 4px 5px 6px;
   width: 270px;
   height: 270px;
   z-index: 10; }
 .listing .product:hover .product__modal {
-  height: calc(100% + 100px);
+  height: calc(100% + 200px);
   box-shadow: 0px 10px 17px -4px rgba(0, 0, 0, 0.25); }
 .listing .product:hover .product__content {
   margin: 5px;

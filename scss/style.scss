@@ -12,6 +12,11 @@ $border-radius : 4px;
   font-family: Oxygen;
   src: url(../res/Oxygen-Regular.ttf);
 }
+@font-face {
+  font-family: Oxygen;
+  src: url(../res/Oxygen-Bold.ttf);
+  font-weight: bold;
+}
 
 body {
     display: flex;
@@ -138,7 +143,7 @@ body {
     .product {
         position: relative;
         width: $item-width;
-        height: $item-width;
+        height: ($item-width + 100px);
         background: $color-listing-item;
         margin: 10px;
         transition: margin $transition-timing, width $transition-timing, height $transition-timing, box-shadow $transition-timing;
@@ -166,7 +171,22 @@ body {
             transition: margin $transition-timing;
             border-radius: inherit;
         }
-        
+        &__image img { width: 100%; }
+        &__title {
+            text-align: center;
+            font-weight: bold;
+        }
+        &__footer {
+            display: flex;
+            justify-content: space-between;
+            
+            .icon-* {
+                color: #00ffff;
+            }
+        }
+        &__description {
+            text-align: center;
+        }
         &:hover {
             
             margin: 4px 5px 6px;
@@ -175,7 +195,7 @@ body {
             z-index: 10;
             
             .product__modal {
-                height: calc(100% + 100px);
+                height: calc(100% + 200px);
                 box-shadow: $shadow-wide;
             }
             .product__content {
