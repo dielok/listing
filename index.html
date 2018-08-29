@@ -6,19 +6,33 @@
         
         <title>Modern Listing</title>
         
+        <link rel="stylesheet" href="res/fontello/css/fontello.css">
         <link rel="stylesheet" href="css/style.css">
         
     </head>
     
     <body>
         
-        <div class="filters">
-            <h1>Filter</h1>
+        <div class="breadcrumb"></div>
+        <div class="jumbo"></div>
+        
+        <div class="sidebar">
+            
+            <div class="sidebar__item sidebar__search">
+                <span class="icon-search"></span>
+                <div class="sidebar__search-wrapper">
+                    <input type="text" name="search" placeholder="Suche">
+                </div>
+            </div>
+            <div class="sidebar__item sidebar__filters">
+                <div class="sidebar__head"><span class="icon-filter"></span> Filter</div>
+                <div class="sidebar__filter">Marke</div>
+                <div class="sidebar__filter">Farbe</div>
+            </div>
+            
         </div>
         
         <div class="listing testing">
-            
-            <h1>Zubehör <span class="amount">(85)</span></h1>
             
             <div class="product">
                 <div class="product__modal"></div>
@@ -32,7 +46,7 @@
             
         </div>
         
-        <script type="text/javascript" src="products.json"></script>
+        <script type="text/javascript" src="res/products.json"></script>
         <script type="text/javascript" src="js/lib/jquery-3.3.1.min.js"></script>
         <script type="text/javascript" src="js/lib/jquery.visible.min.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
