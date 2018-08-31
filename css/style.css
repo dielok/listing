@@ -27,6 +27,9 @@ body {
   /* Non-prefixed version, currently
      supported by Chrome and Opera */ }
 
+.highlight[class^="icon-"]:before, .highlight[class*=" icon-"]:before {
+  color: #00ffff; }
+
 .sidebar {
   display: block;
   /* mobile first */
@@ -213,8 +216,6 @@ body {
   justify-content: space-between;
   font-size: 24px;
   transition: font-size 0.2s; }
-.listing .product__footer [class^="icon-"]:before, .listing .product__footer [class*=" icon-"] {
-  color: #00ffff; }
 .listing .product__description {
   text-align: center;
   margin-bottom: 30px; }
