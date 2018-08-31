@@ -8,7 +8,9 @@
 body {
   display: flex;
   background: #fafafa;
-  font-family: Oxygen; }
+  font-family: Oxygen;
+  flex-wrap: wrap;
+  justify-content: center; }
 
 .noselect {
   -webkit-touch-callout: none;
@@ -26,7 +28,7 @@ body {
      supported by Chrome and Opera */ }
 
 .sidebar {
-  display: none;
+  display: block;
   /* mobile first */
   width: 284px;
   padding: 10px;
@@ -129,13 +131,11 @@ body {
 .sidebar .icon {
   margin: 0 17px 0 -8px; }
 
-@media (min-width: 897px) {
-  .sidebar {
-    display: block; } }
 .listing {
   position: relative;
   display: flex;
   flex-grow: 1;
+  flex-basis: 100%;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
@@ -232,5 +232,10 @@ body {
   font-size: 26px; }
 
 @media (min-width: 567px) {
+  body {
+    flex-wrap: nowrap;
+    justify-content: flex-start; }
+
   .listing {
-    justify-content: flex-start; } }
+    justify-content: flex-start;
+    flex-basis: auto; } }

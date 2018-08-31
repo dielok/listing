@@ -52,6 +52,8 @@ function testMaxItems() {
     $('.product', $listing).remove();
     $listing.removeClass('testing');
     
+    if (maxPerPage < 10) maxPerPage = 10;
+    
     return maxPerPage;
     
 }
