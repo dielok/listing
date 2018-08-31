@@ -2,17 +2,11 @@
 
 function loadDataPage(start, offset, callback) {
     
-    console.log("loadDataPage", [start, offset]);
-    
     busy = true;
     $listing.addClass('loading');
     
     /* TODO: DO LOADING STUFF AND CALLBACK WHEN DONE
-    $.get("products.json", function(data) {
-        
-        console.log(data);
-        
-    });
+    $.get("products.json", function(data) {});
     */
     
     setTimeout(function(){ callback(data.slice(0, offset)); }, 3000);
@@ -20,8 +14,6 @@ function loadDataPage(start, offset, callback) {
 }
 
 function renderPage(data) {
-    
-    console.log("renderPage", data);
     
     for (let i = 0; i < data.length; i++) {
         
@@ -72,9 +64,7 @@ loadDataPage(0, maxPerPage * 2, function(page) {
         
         var scrollPosition = $(this).scrollTop() + $(window).height();
         
-        if (scrollPosition >= loadPosition) {
-            
-            console.log("end of list");
+        if (scrollPosition >= loadPosition) { // reached end of list
             
             if ( ! busy) {
                 
@@ -90,6 +80,11 @@ loadDataPage(0, maxPerPage * 2, function(page) {
     
 });
 
+$(window).on("resize", function(e) {
+    
+    loadPosition = $listing.offset().top + $listing.outerHeight() - 1.2 * $(this).height();
+    
+});
 
 
 
