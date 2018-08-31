@@ -198,7 +198,8 @@ body {
   border-radius: inherit;
   font-size: 14px; }
 .listing .product__image img {
-  width: 100%; }
+  width: 100%;
+  margin: 5px 0; }
 .listing .product__infos {
   padding: 0 10px; }
 .listing .product__title {
