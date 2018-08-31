@@ -14,17 +14,12 @@ body {
 .noselect {
   -webkit-touch-callout: none;
   /* iOS Safari */
-  -webkit-user-select: none;
-  /* Safari */
-  -khtml-user-select: none;
-  /* Konqueror HTML */
   -moz-user-select: none;
-  /* Firefox */
+  -webkit-user-select: none;
   -ms-user-select: none;
-  /* Internet Explorer/Edge */
-  user-select: none;
-  /* Non-prefixed version, currently
-     supported by Chrome and Opera */ }
+  -o-user-select: none;
+  -khtml-user-select: none;
+  user-select: none; }
 
 .highlight[class^="icon-"]:before, .highlight[class*=" icon-"]:before {
   color: #00ffff; }
@@ -78,11 +73,12 @@ body {
 .wrapper .sidebar__search-wrapper {
   width: 100%; }
 .wrapper .sidebar__search-wrapper input {
+  outline: none;
   width: 100%;
   border: none;
   font-size: 16px; }
 .wrapper .sidebar__search-wrapper input::placeholder {
-  color: black; }
+  color: #777; }
 .wrapper .sidebar__filters {
   min-height: 70px;
   background: #fefefe;
@@ -145,7 +141,7 @@ body {
   align-items: center;
   border-top: 1px solid #efefef;
   padding: 0 20px;
-  color: #777777;
+  color: #777;
   justify-content: space-between; }
 .wrapper .sidebar__filter:after {
   font-family: "fontello";

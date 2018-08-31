@@ -2,6 +2,7 @@
 $item-width: 260px;
 $transition-timing: .2s;
 $color-font: #000;
+$color-font-secondary: #777;
 $color-listing-item: #fefefe;
 $color-background: #fafafa;
 $color-line: #efefef;
@@ -42,13 +43,8 @@ body {
 }
 
 .noselect {
-  -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome and Opera */
+    -webkit-touch-callout: none; /* iOS Safari */
+    @include prefix(user-select, none, moz webkit ms o khtml);
 }
 
 .highlight {
@@ -104,11 +100,12 @@ body {
                 width: 100%;
                 
                 input {
+                    outline: none;
                     width: 100%;
                     border: none;
                     font-size: 16px;
                     &::placeholder {
-                        color: rgb(0,0,0);
+                        color: $color-font-secondary;
                     }
                 }
             }
@@ -178,7 +175,7 @@ body {
             align-items: center;
             border-top: 1px solid $color-line;
             padding: 0 20px;
-            color: #777777;
+            color: $color-font-secondary;
             justify-content: space-between;
             
             &:after {
