@@ -138,6 +138,7 @@ body {
   flex-grow: 1;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
   margin-bottom: 120px; }
 .listing.testing .product {
   visibility: hidden; }
@@ -156,6 +157,7 @@ body {
 .listing .product {
   position: relative;
   width: 260px;
+  /* assuming a minimum viewport width of 320px */
   height: 410px;
   background: #fefefe;
   margin: 10px;
@@ -229,5 +231,6 @@ body {
 .listing .product:hover .product__footer {
   font-size: 26px; }
 
-body.mobile .product {
-  flex: 1 1 auto; }
+@media (min-width: 567px) {
+  .listing {
+    justify-content: flex-start; } }

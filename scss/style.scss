@@ -1,6 +1,5 @@
 
 $item-width: 260px;
-$item-height: ($item-width + 150px);
 $transition-timing: .2s;
 $color-listing-item: #fefefe;
 $color-background: #fafafa;
@@ -179,6 +178,7 @@ body {
     flex-grow: 1;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     margin-bottom: 120px;
     
     &.testing .product {
@@ -205,8 +205,8 @@ body {
     
     .product {
         position: relative;
-        width: $item-width;
-        height: $item-height;
+        width: $item-width; /* assuming a minimum viewport width of 320px */
+        height: $item-width + 150px;
         background: $color-listing-item;
         margin: 10px;
         transition: margin $transition-timing, width $transition-timing, height $transition-timing, box-shadow $transition-timing, z-index $transition-timing;
@@ -296,8 +296,8 @@ body {
     }
 }
 
-body.mobile {
-    .product {
-        flex: 1 1 auto;
+@media (min-width: 567px) {
+    .listing {
+        justify-content: flex-start;
     }
 }
