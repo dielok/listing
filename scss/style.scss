@@ -1,6 +1,7 @@
 
 $item-width: 260px;
 $transition-timing: .2s;
+$color-font: #000;
 $color-listing-item: #fefefe;
 $color-background: #fafafa;
 $color-grey-line: #efefef;
@@ -23,8 +24,7 @@ body {
     display: flex;
     background: $color-background;
     font-family: Oxygen;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
 }
 
 .noselect {
@@ -45,265 +45,287 @@ body {
     }
 }
 
-.sidebar {
-    display: block; /* mobile first */
-    width: 284px;
-    padding: 10px;
-    flex-basis: auto;
-    flex-grow: 0;
-    flex-shrink: 0;
-    
-    &__item {
-        width: 100%;
-        margin-bottom: 25px;
-    }
-    
-    &__search {
-        display: flex;
-        align-items: center;
-        height: 70px;
-        padding: 0 20px;
-        width: calc(100% - 40px);
-        font-size: 20px;
-        background: $color-listing-item;
-        border-radius: $border-radius;
-        box-shadow: $shadow-near;
-        
-        &-wrapper {
-            width: 100%;
-            
-            input {
-                width: 100%;
-                border: none;
-                border-bottom: 1px solid $color-grey-line;
-                font-size: 20px;
-            }
-        }
-    }
-    
-    &__filters {
-        min-height: 70px;
-        background: $color-listing-item;
-        border-radius: $border-radius;
-        box-shadow: $shadow-near;
-    }
-    
-    &__head {
-        height: 90px;
-        display: flex;
-        align-items: center;
-        padding: 0 20px;
-        font-size: 20px;
-    }
-    
-    &__filter-content {
-        display: none;
-        padding: 0 20px 20px;
-        margin: 0;
-        list-style: none;
-        
-        li {
-            margin-bottom: 10px;
-            input[type=checkbox] {
-                display: none;
-                &:checked + .tick:after { opacity: 1; }
-            }
-            label { /* TODO: prevent select */ cursor: pointer; padding-left: 10px; }
-            .tick {
-                display: inline-block;
-                position: relative;
-                width: 16px;
-                height: 14px;
-            }
-            
-            .tick:after {
-                opacity: 0.2;
-                content: '';
-                position: absolute;
-                width: 9px;
-                height: 5px;
-                background: transparent;
-                border: 3px solid #333;
-                border-top: none;
-                border-right: none;
-                top: 3px;
-                left: 1px;
-                
-                transform: rotate(-45deg);
-            }
-        }
-    }
-    
-    &__filter--open + .sidebar__filter-content {
-        display: block;
-    }
-    
-    &__filter {
-        cursor: pointer;
-        height: 70px;
-        display: flex;
-        align-items: center;
-        border-top: 1px solid $color-grey-line;
-        padding: 0 20px;
-        justify-content: space-between;
-        
-        &:after {
-            font-family: "fontello";
-            font-style: normal;
-            font-weight: normal;
-            speak: none;
-            
-            display: inline-block;
-            text-decoration: inherit;
-            width: 1em;
-            margin-right: .2em;
-            text-align: center;
-            font-variant: normal;
-            text-transform: none;
-            line-height: 1em;
-            margin-left: .2em;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-            content: '\e804';
-        }
-    }
-    
-    &__filter--open:after {
-        content: '\e805';
-    }
-    
-    .icon {
-        margin: 0 17px 0 -8px;
-    }
+.breadcrumb, .jumbo {
+    padding: 20px 30px 10px;
+}
+.breadcrumb a {
+    font-weight: bold;
+    color: $color-font;
+}
+.jumbo {
+    padding-top: 0px;
+    font-size: 30px;
 }
 
-.listing {
-    position: relative;
+.wrapper {
     display: flex;
-    flex-grow: 1;
-    flex-basis: 100%;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 120px;
     
-    &.testing .product {
-        visibility: hidden;
-    }
-    
-    &.loading .flummy {
-        display: block;
-    }
-    
-    .flummy {
-        display: none;
-        position: absolute;
-        width: 40px;
-        height: 40px;
-        bottom: -80px;
-        left: calc(50% - 20px);
-    }
-    
-    h1 {
-        width: 100%;
-        margin-left: 10px;
-    }
-    
-    .product {
-        position: relative;
-        width: $item-width; /* assuming a minimum viewport width of 320px */
-        height: $item-width + 150px;
-        background: $color-listing-item;
-        margin: 10px;
-        transition: margin $transition-timing, width $transition-timing, height $transition-timing, box-shadow $transition-timing, z-index $transition-timing;
-        transition-timing-function: ease-in-out;
-        z-index: 0;
-        border-radius: $border-radius;
-        cursor: pointer;
+    .sidebar {
+        display: block; /* mobile first */
+        width: 284px;
+        padding: 10px;
+        flex-basis: auto;
+        flex-grow: 0;
+        flex-shrink: 0;
         
-        &__modal {
-            position: absolute;
+        &__item {
             width: 100%;
-            height: 100%;
-            background: $color-listing-item;
-            top: 0px;
-            left: 0px;
-            transition: box-shadow $transition-timing, height $transition-timing;
-            transition-timing-function: ease-in-out;
-            box-shadow: $shadow-near;
-            border-radius: inherit;
+            margin-bottom: 25px;
         }
-        &__extent {
-            width: 100%;
-            height: 100px;
-            position: absolute;
-            bottom: 0px;
+        
+        &__search {
             display: flex;
-            justify-content: center;
             align-items: center;
-            img {
-                width: 40px;
-                transition: width $transition-timing;
-                &:hover { width: 50px; }
+            height: 70px;
+            padding: 0 20px;
+            width: calc(100% - 40px);
+            font-size: 20px;
+            background: $color-listing-item;
+            border-radius: $border-radius;
+            box-shadow: $shadow-near;
+            
+            &-wrapper {
+                width: 100%;
+                
+                input {
+                    width: 100%;
+                    border: none;
+                    font-size: 16px;
+                    &::placeholder {
+                        color: rgb(0,0,0);
+                    }
+                }
             }
         }
-        &__content {
-            position: relative; /* for creating an stacking context to influence the z-achsis  */
-            background: inherit;
-            width: 100%;
-            height: 100%;
-            transition: margin $transition-timing, width $transition-timing, height $transition-timing, font-size $transition-timing;
-            border-radius: inherit;
-            font-size: 14px;
+        
+        &__filters {
+            min-height: 70px;
+            background: $color-listing-item;
+            border-radius: $border-radius;
+            box-shadow: $shadow-near;
         }
-        &__image img { width: 100%; margin: 5px 0; }
-        &__infos {
-            padding: 0 10px;
-        }
-        &__title {
-            text-align: center;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-        &__footer {
+        
+        &__head {
+            height: 90px;
             display: flex;
+            align-items: center;
+            padding: 0 20px;
+            font-size: 20px;
+        }
+        
+        &__filter-content {
+            display: none;
+            padding: 0 20px 20px;
+            margin: 0;
+            list-style: none;
+            
+            li {
+                margin-bottom: 10px;
+                input[type=checkbox] {
+                    display: none;
+                    &:checked + .tick:after { opacity: 1; }
+                }
+                label { cursor: pointer; padding-left: 10px; }
+                .tick {
+                    display: inline-block;
+                    position: relative;
+                    width: 16px;
+                    height: 14px;
+                }
+                
+                .tick:after {
+                    opacity: 0.2;
+                    content: '';
+                    position: absolute;
+                    width: 9px;
+                    height: 5px;
+                    background: transparent;
+                    border: 3px solid #333;
+                    border-top: none;
+                    border-right: none;
+                    top: 3px;
+                    left: 1px;
+                    
+                    transform: rotate(-45deg);
+                }
+            }
+        }
+        
+        &__filter--open + .sidebar__filter-content {
+            display: block;
+        }
+        
+        &__filter {
+            cursor: pointer;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            border-top: 1px solid $color-grey-line;
+            padding: 0 20px;
+            color: #777777;
             justify-content: space-between;
-            font-size: 24px;
-            transition: font-size $transition-timing;
+            
+            &:after {
+                font-family: "fontello";
+                font-style: normal;
+                font-weight: normal;
+                speak: none;
+                
+                display: inline-block;
+                text-decoration: inherit;
+                width: 1em;
+                margin-right: .2em;
+                text-align: center;
+                font-variant: normal;
+                text-transform: none;
+                line-height: 1em;
+                margin-left: .2em;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                content: '\e804';
+            }
         }
-        &__description {
-            text-align: center;
-            margin-bottom: 30px;
+        
+        &__filter--open:after {
+            content: '\e805';
         }
-        &:hover {
+        
+        .icon {
+            margin: 0 17px 0 -3px;
+        }
+    }
+
+    .listing {
+        position: relative;
+        display: flex;
+        flex-grow: 1;
+        flex-basis: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 120px;
+        
+        &.testing .product {
+            visibility: hidden;
+        }
+        
+        &.loading .flummy {
+            display: block;
+        }
+        
+        .flummy {
+            display: none;
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            bottom: -80px;
+            left: calc(50% - 20px);
+        }
+        
+        h1 {
+            width: 100%;
+            margin-left: 10px;
+        }
+        
+        .product {
+            position: relative;
+            width: $item-width; /* assuming a minimum viewport width of 320px */
+            height: $item-width + 150px;
+            background: $color-listing-item;
+            margin: 10px;
+            transition: margin $transition-timing, width $transition-timing, height $transition-timing, box-shadow $transition-timing, z-index $transition-timing;
+            transition-timing-function: ease-in-out;
+            z-index: 0;
+            border-radius: $border-radius;
+            cursor: pointer;
             
-            margin: 4px 5px 6px;
-            width: $item-width + 10px;
-            height: $item-width + 160px;
-            z-index: 10000;
-            
-            .product__modal {
-                height: calc(100% + 100px);
-                box-shadow: $shadow-wide;
+            &__modal {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background: $color-listing-item;
+                top: 0px;
+                left: 0px;
+                transition: box-shadow $transition-timing, height $transition-timing;
+                transition-timing-function: ease-in-out;
+                box-shadow: $shadow-near;
+                border-radius: inherit;
             }
-            .product__content {
-                font-size: 15px;
+            &__extent {
+                width: 100%;
+                height: 100px;
+                position: absolute;
+                bottom: 0px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img {
+                    width: 40px;
+                    transition: width $transition-timing;
+                    &:hover { width: 50px; }
+                }
             }
-            .product__footer {
-                font-size: 26px;
+            &__content {
+                position: relative; /* for creating an stacking context to influence the z-achsis  */
+                background: inherit;
+                width: 100%;
+                height: 100%;
+                transition: margin $transition-timing, width $transition-timing, height $transition-timing, font-size $transition-timing;
+                border-radius: inherit;
+                font-size: 14px;
             }
-            
+            &__image img { width: 100%; margin: 5px 0; }
+            &__infos {
+                padding: 0 10px;
+            }
+            &__title {
+                text-align: center;
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+            &__footer {
+                display: flex;
+                justify-content: space-between;
+                font-size: 24px;
+                transition: font-size $transition-timing;
+            }
+            &__description {
+                text-align: center;
+                margin-bottom: 30px;
+            }
+            &:hover {
+                
+                margin: 4px 5px 6px;
+                width: $item-width + 10px;
+                height: $item-width + 160px;
+                z-index: 10000;
+                
+                .product__modal {
+                    height: calc(100% + 100px);
+                    box-shadow: $shadow-wide;
+                }
+                .product__content {
+                    font-size: 15px;
+                }
+                .product__footer {
+                    font-size: 26px;
+                }
+                
+            }
         }
     }
 }
 
 @media (min-width: 567px) {
-    body {
+    .wrapper {
         flex-wrap: nowrap;
         justify-content: flex-start;
-    }
-    .listing {
-        justify-content: flex-start;
-        flex-basis: auto;
+        
+        .listing {
+            justify-content: flex-start;
+            flex-basis: auto;
+        }
     }
 }
