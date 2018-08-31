@@ -11,7 +11,7 @@
         $.get("products.json", function(data) {});
         */
         
-        setTimeout(function(){ callback(data.slice(0, offset)); }, 3000); // latency simulated for presentation
+        setTimeout(function() { callback(data.slice(0, offset)); }, 3000); // latency simulated for presentation
         
     }
     
