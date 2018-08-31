@@ -1,6 +1,7 @@
 
 $item-width: 260px;
-$transition-timing: .1s;
+$item-height: ($item-width + 150px);
+$transition-timing: .2s;
 $color-listing-item: #fefefe;
 $color-background: #fafafa;
 $color-grey-line: #efefef;
@@ -23,6 +24,17 @@ body {
     background: $color-background;
     font-family: Oxygen;
 }
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
 .sidebar {
     display: none; /* mobile first */
     width: 284px;
@@ -74,7 +86,50 @@ body {
         font-size: 20px;
     }
     
+    &__filter-content {
+        display: none;
+        padding: 0 20px 20px;
+        margin: 0;
+        list-style: none;
+        
+        li {
+            margin-bottom: 10px;
+            input[type=checkbox] {
+                display: none;
+                &:checked + .tick:after { opacity: 1; }
+            }
+            label { /* TODO: prevent select */ cursor: pointer; padding-left: 10px; }
+            .tick {
+                display: inline-block;
+                position: relative;
+                width: 16px;
+                height: 14px;
+            }
+            
+            .tick:after {
+                opacity: 0.2;
+                content: '';
+                position: absolute;
+                width: 9px;
+                height: 5px;
+                background: transparent;
+                border: 3px solid #333;
+                border-top: none;
+                border-right: none;
+                top: 3px;
+                left: 1px;
+                
+                transform: rotate(-45deg);
+            }
+        }
+    }
+    
+    &__filter--open + .sidebar__filter-content {
+        display: block;
+    }
+    
     &__filter {
+        cursor: pointer;
         height: 70px;
         display: flex;
         align-items: center;
@@ -101,6 +156,14 @@ body {
             -moz-osx-font-smoothing: grayscale;
             content: '\e804';
         }
+    }
+    
+    &__filter--open:after {
+        content: '\e805';
+    }
+    
+    .icon {
+        margin: 0 17px 0 -8px;
     }
 }
 
@@ -143,13 +206,14 @@ body {
     .product {
         position: relative;
         width: $item-width;
-        height: ($item-width + 100px);
+        height: $item-height;
         background: $color-listing-item;
         margin: 10px;
-        transition: margin $transition-timing, width $transition-timing, height $transition-timing, box-shadow $transition-timing;
+        transition: margin $transition-timing, width $transition-timing, height $transition-timing, box-shadow $transition-timing, z-index $transition-timing;
         transition-timing-function: ease-in-out;
         z-index: 0;
         border-radius: $border-radius;
+        cursor: pointer;
         
         &__modal {
             position: absolute;
@@ -163,45 +227,69 @@ body {
             box-shadow: $shadow-near;
             border-radius: inherit;
         }
+        &__extent {
+            width: 100%;
+            height: 100px;
+            position: absolute;
+            bottom: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                width: 40px;
+                transition: width $transition-timing;
+                &:hover { width: 50px; }
+            }
+        }
         &__content {
             position: relative; /* for creating an stacking context to influence the z-achsis  */
             background: inherit;
             width: 100%;
             height: 100%;
-            transition: margin $transition-timing;
+            transition: margin $transition-timing, width $transition-timing, height $transition-timing, font-size $transition-timing;
             border-radius: inherit;
+            font-size: 14px;
         }
         &__image img { width: 100%; }
+        &__infos {
+            padding: 0 10px;
+        }
         &__title {
             text-align: center;
             font-weight: bold;
+            margin-bottom: 10px;
         }
         &__footer {
             display: flex;
             justify-content: space-between;
+            font-size: 24px;
+            transition: font-size $transition-timing;
             
-            .icon-* {
+            [class^="icon-"]:before, [class*=" icon-"] {
                 color: #00ffff;
             }
         }
         &__description {
             text-align: center;
+            margin-bottom: 30px;
         }
         &:hover {
             
             margin: 4px 5px 6px;
             width: $item-width + 10px;
-            height: $item-width + 10px;
-            z-index: 10;
+            height: $item-width + 160px;
+            z-index: 10000;
+            
             
             .product__modal {
-                height: calc(100% + 200px);
+                height: calc(100% + 100px);
                 box-shadow: $shadow-wide;
             }
             .product__content {
-                margin: 5px;
-                width: calc(100% - 10px);
-                height: calc(100% - 10px);
+                font-size: 15px;
+            }
+            .product__footer {
+                font-size: 26px;
             }
             
         }

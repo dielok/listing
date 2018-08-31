@@ -16,18 +16,62 @@
         <div class="breadcrumb"></div>
         <div class="jumbo"></div>
         
-        <div class="sidebar">
+        <div class="sidebar noselect">
             
             <div class="sidebar__item sidebar__search">
-                <span class="icon-search"></span>
+                <span class="icon icon-search"></span>
                 <div class="sidebar__search-wrapper">
                     <input type="text" name="search" placeholder="Suche">
                 </div>
             </div>
             <div class="sidebar__item sidebar__filters">
-                <div class="sidebar__head"><span class="icon-filter"></span> Filter</div>
-                <div class="sidebar__filter">Marke</div>
+                <div class="sidebar__head"><span class="icon icon-filter"></span> Filter</div>
+                <div class="sidebar__filter sidebar__filter--open">Marke</div>
+                <ul class="sidebar__filter-content">
+                    <li>
+                        <input type="checkbox" id="checkbox-adidas">
+                        <span class="tick"></span>
+                        <label for="checkbox-adidas">Adidas</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="checkbox-erima">
+                        <span class="tick"></span>
+                        <label for="checkbox-erima">Erima</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="checkbox-puma">
+                        <span class="tick"></span>
+                        <label for="checkbox-puma">Puma</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="checkbox-nike">
+                        <span class="tick"></span>
+                        <label for="checkbox-nike">Nike</label>
+                    </li>
+                </ul>
                 <div class="sidebar__filter">Farbe</div>
+                <ul class="sidebar__filter-content">
+                    <li>
+                        <input type="checkbox" id="checkbox-red">
+                        <span class="tick"></span>
+                        <label for="checkbox-red">Rot</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="checkbox-yellow">
+                        <span class="tick"></span>
+                        <label for="checkbox-yellow">Gelb</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="checkbox-green">
+                        <span class="tick"></span>
+                        <label for="checkbox-green">Grün</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="checkbox-blue">
+                        <span class="tick"></span>
+                        <label for="checkbox-blue">Blau</label>
+                    </li>
+                </ul>
             </div>
             
         </div>
@@ -35,10 +79,15 @@
         <div class="listing testing">
             
             <div class="product">
-                <div class="product__modal"></div>
+                <div class="product__modal noselect">
+                    <div class="product__extent">
+                        <img src="https://images.sportsdirect.com/images/products/59592690_l.jpg">
+                        <img src="https://images.sportsdirect.com/images/products/59592692_l.jpg">
+                    </div>
+                </div>
                 <div class="product__content">
-                    <div class="product__image">
-                        <img src="https://webmiddleware.boards-and-more.com/storage/44803-5000/url_app_ipad_retina/_DB_2086.png">
+                    <div class="product__image noselect">
+                        <img src="http://images.sportsdirect.com/images/imgzoom/59/59592622_xxl.jpg">
                     </div>
                     <div class="product__infos">
                         <div class="product__title">T-Shirt</div>

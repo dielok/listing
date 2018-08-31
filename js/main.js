@@ -87,3 +87,16 @@ loadDataPage(0, maxPerPage * 2, function(page) {
     renderPage(page);
     
 });
+
+
+
+
+/////
+
+
+
+$('.sidebar__filter').on('click', function() {
+    
+    $(this).toggleClass("sidebar__filter--open");
+    
+});
